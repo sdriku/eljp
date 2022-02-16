@@ -1,0 +1,46 @@
+- id: nav_button
+  translation: Demandez un devis
+- id: services
+  translation: Prestations
+- id: quick_links
+  translation: Liens Rapides
+- id: contact_us
+  translation: Contactez-nous
+- id: contact_form
+  translation: Formulaire de contact
+- id: submit
+  translation: Envoyer
+- id: buy_now
+  translation: Buy Now
+- id: service_brochure
+  translation: Service Brochure
+- id: download_pdf
+  translation: Download pdf
+- id: opening_hours
+  translation: Opening Hours
+- id: contact_info
+  translation: Information contact
+- id: follow_on_social
+  translation: Follow on Social
+- id: cv
+  translation: Professional CV
+- id: overview
+  translation: Overview
+- id: project_name
+  translation: Project Name
+- id: live_demo
+  translation: Watch Live Demo
+- id: case_study
+  translation: Complete Case Study
+- id: free_consultation
+  translation: Demandez une consultation gratuite
+- id: all
+  translation: All
+- id: posted_by
+  translation: Posted By
+- id: share
+  translation: Partager
+- id: call_now
+  translation: Appelez-nous dès maintenant
+- id: read_more
+  translation: En savoir plus
