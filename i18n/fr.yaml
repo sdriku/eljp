@@ -35,9 +35,9 @@
 - id: free_consultation
   translation: Demandez une consultation gratuite
 - id: all
-  translation: All
+  translation: Tout
 - id: posted_by
-  translation: Posted By
+  translation: Publié par
 - id: share
   translation: Partager
 - id: call_now

@@ -13,7 +13,7 @@ slider:
     pagination_name : Installation
     button:
       enable : true
-      label: More details
+      label: En savoir plus
       link : "service/installations-electriques"
       
   # slider item loop
@@ -26,7 +26,7 @@ slider:
     pagination_name : Rénovation
     button:
       enable : true
-      label: More details
+      label: En savoir plus
       link : "service/renovation"
       
   # slider item loop
@@ -39,7 +39,7 @@ slider:
     pagination_name : Chauffage
     button:
       enable : true
-      label: More details
+      label: En savoir plus
       link : "service/chauffage"
       
   # slider item loop
@@ -52,7 +52,7 @@ slider:
     pagination_name : Alarme
     button:
       enable : true
-      label: More details
+      label: En savoir plus
       link : "service/pose-dalarme"
 
   # slider item loop
@@ -65,7 +65,7 @@ slider:
     pagination_name : Maison Connectée
     button:
       enable : true
-      label: More details
+      label: En savoir plus
       link : "service/maison-connectee"
 
   # slider item loop
@@ -78,7 +78,7 @@ slider:
     pagination_name : Dépannage
     button:
       enable : true
-      label: More details
+      label: En savoir plus
       link : "service/depannage"
 
   # slider item loop
@@ -91,7 +91,7 @@ slider:
     pagination_name : Ventilation
     button:
       enable : true
-      label: More details
+      label: En savoir plus
       link : "service/ventilation"
 
 ########################################## Service ####################################

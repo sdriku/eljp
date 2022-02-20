@@ -14,17 +14,23 @@ offDay: Friday
 type : service
 ---
 
-### Rénovation et Mise aux normes
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Rénovation électrique : A quel moment rénover ?
 
 
->Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis.
 
-1. Business Services
-2. Audit & Assurance
-3. IT Control Solutions
+1. Dans le cadre d’une rénovation lourde quand l’installation électrique doit être entièrement remplacée,
 
-#### Marketing Improvement Strategy
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+2. Dans le cadre d’une extension à raccorder à un bâtiment existant,
+
+3. Dans le cadre de travaux de raccordements de nouveaux équipements électriques,
+
+4. Dans le cadre d’un réaménagement de pièces existantes
+
+
+
+Quand une installation électrique est trop ancienne, sa vétusté peut entraîner des cours-circuits, le risque d’incendie est donc réel. Chaque année, on déplore plus de 80 000 incendies d’origine électrique et des milliers d’accidents corporels !
+
+> Si vous achetez une maison de plus de 15 ans, le vendeur doit obligatoirement vous fournir un diagnostic électrique qui répertorie tous les défauts de l’installation. Si la remise aux normes de l’électricité n’a rien d’obligatoire, elle est quand même vivement conseillée bien évidemment.
+
+> Le remplacement complet de l’éclairage nécessite la dépose de l’ancienne installation. Ceci occasionne souvent des travaux connexes de peintures notamment, voire même de plâtrerie si la nouvelle installation est réalisée dans les murs pour un rendu invisible.
 

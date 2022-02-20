@@ -16,14 +16,22 @@ type : service
 
 ### Pose d'Alarme
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ELJP  pose des alarmes DAITEM marque francaise mais à la demande du client il est posisible d'opter d'autres marques
 
 
-> Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis.
 
-1. Business Services
-2. Audit & Assurance
-3. IT Control Solutions
+Selon l'ONDRP (observatoire national de la délinquance et des réponses pénales), un cambriolage est commis en France toutes les 90 secondes. Face à ce constat, de plus en plus de Français décident d'installer un système d'alarme dans leur maison pour se protéger et être plus rassurés.
+Quelles sont les spécificités d'un dispositif d'alarme maison ?
 
-#### Marketing Improvement Strategy
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+Une alarme maison est un système conçu pour protéger les personnes à leur domicile. Outre les tentatives de cambriolages, ce dispositif peut aussi donner l'alerte en cas de divers incidents domestiques : incendie, fuite de gaz, etc. La plupart des modèles d'alarmes pour la maison sont composés de quatre éléments : un capteur d'incident, des avertisseurs, un appareil de commande ainsi qu'une centrale de coordination. Dans les faits, lorsqu'une anomalie est détectée au moyen des capteurs, ces derniers donnent l'alerte à la centrale qui actionne alors les avertisseurs.
+
+Quels sont les différents modèles d'alarmes pour la maison ?
+
+Il existe une large variété d'alarmes maison disponibles sur le marché : alarme GSM, détecteur de mouvement, alarme IP, etc. Les systèmes d'alarmes se répartissent en trois familles principales :
+
+- Les alarmes traditionnelles : elles émettent une alerte sonore et peuvent être filaires ou en sans fil.
+- Les alarmes connectées : en cas d'intrusion à son domicile, le propriétaire reçoit une alerte sur son mobile.
+- Les alarmes reliées à un service de télésurveillance : elles permettent de surveiller une maison 24H/24.
+
+Vous serez aidés dans votre choix selon vos exigences
+
