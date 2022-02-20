@@ -51,15 +51,5 @@
 </section>
 {{ "<!-- /contact -->" | safeHTML }}
 
-{{ "<!-- Google Map -->" | safeHTML }}
-{{ with site.Params.gmap }}
-{{ if .enable }}
-<section class="map">
-  <div id="map_canvas" data-latitude="{{ .map_latitude }}" data-longitude="{{ .map_longitude }}" data-marker="{{ .map_marker | relURL }}" data-marker-name="{{ site.Title }}">
-  </div>
-</section>
-{{ end }}
-{{ end }}
-{{ "<!-- /google map -->" | safeHTML }}
 
 {{ end }}

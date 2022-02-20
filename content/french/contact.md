@@ -13,7 +13,7 @@ contact_info:
   
 - name: "mail"
   icon: "ti-email"
-  content: "info@eljp.com <br> tateossian.serge@laposte.net"
+  content: "elec.juste.prix@gmail.com"
   
 - name: "location"
   icon: "ti-map-alt"

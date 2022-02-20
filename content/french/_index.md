@@ -40,13 +40,13 @@ slider:
     button:
       enable : true
       label: More details
-      link : "service/chauffage-climatisation"
+      link : "service/chauffage"
       
   # slider item loop
   - bg_image : images/banner/banner-4.jpg
     animation_from : right
     subtitle : 
-    title : Alarme
+    title : Pose d'Alarme
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
 #     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
     pagination_name : Alarme
@@ -59,14 +59,14 @@ slider:
   - bg_image : images/banner/banner-5.jpg
     animation_from : right
     subtitle : 
-    title : Maison Intelligente
+    title : Maison Connectée
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
 #     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Maison Intelligente
+    pagination_name : Maison Connectée
     button:
       enable : true
       label: More details
-      link : "service/maison-intelligente"
+      link : "service/maison-connectee"
 
   # slider item loop
   - bg_image : images/banner/banner-6.jpg
@@ -80,6 +80,19 @@ slider:
       enable : true
       label: More details
       link : "service/depannage"
+
+  # slider item loop
+  - bg_image : images/banner/banner-6.jpg
+    animation_from : right
+    subtitle :
+    title : Ventilation VMC
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+#     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
+    pagination_name : Ventilation
+    button:
+      enable : true
+      label: More details
+      link : "service/ventilation"
 
 ########################################## Service ####################################
 service:
