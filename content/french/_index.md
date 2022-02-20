@@ -59,10 +59,10 @@ slider:
   - bg_image : images/banner/banner-5.jpg
     animation_from : right
     subtitle : 
-    title : Maison Connectée
+    title : Domotique
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
 #     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Maison Connectée
+    pagination_name : Domotique
     button:
       enable : true
       label: En savoir plus
