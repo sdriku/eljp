@@ -62,7 +62,7 @@ slider:
     title : Maison Connectée
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
 #     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Maison-Connectée
+    pagination_name : Maison Connectée
     button:
       enable : true
       label: En savoir plus
