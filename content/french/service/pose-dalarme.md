@@ -1,7 +1,8 @@
 ---
 title: "Alarme"
 date: 2018-09-29T11:51:17+06:00
-description : "This is meta description"
+description : "Selon l'ONDRP (observatoire national de la délinquance et des réponses pénales), un cambriolage est commis en France toutes les 90 secondes. Face à ce constat, de plus en plus de Français décident d'installer un système d'alarme dans leur maison pour se protéger et être plus rassurés.
+Quelles sont les spécificités d'un dispositif d'alarme maison ?"
 image: images/service/service-2.jpg
 bg_image: images/background/page-title.jpg
 # icon: ti-thought
@@ -14,10 +15,7 @@ offDay: Friday
 type : service
 ---
 
-### Pose d'Alarme
-
-ELJP  pose des alarmes DAITEM marque francaise mais à la demande du client il est posisible d'opter d'autres marques
-
+### ELJP  pose des alarmes DAITEM marque francaise mais à la demande du client il est possible d'opter pour d'autres marques
 
 
 Selon l'ONDRP (observatoire national de la délinquance et des réponses pénales), un cambriolage est commis en France toutes les 90 secondes. Face à ce constat, de plus en plus de Français décident d'installer un système d'alarme dans leur maison pour se protéger et être plus rassurés.

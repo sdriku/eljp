@@ -1,7 +1,7 @@
 ---
 title: "Chauffage"
 date: 2018-09-29T11:51:17+06:00
-description : "This is meta description"
+description : "Quel radiateur électrique économique choisir ?"
 image: images/service/service-6.jpg
 bg_image: images/background/page-title.jpg
 icon:
@@ -14,11 +14,9 @@ offDay: Friday
 type : service
 ---
 
-### Chauffage
+### Chauffage: quel radiateur électrique économique choisir ?
 
-Quel radiateur électrique économique choisir ?
 
- 
 Loin des anciens convecteurs énergivores et qui asséchaient l’air, le radiateur électrique sait aujourd’hui se faire économique. Il faut cependant bien s’entendre sur la définition de radiateur économique : Peu cher à l’achat ? Rentable sur le long terme ? Et sur quels critères se fonder pour choisir un radiateur électrique économique ? ENGIE passe en revue tous les aspects importants pour vous aider à faire un choix et mieux vous chauffer.
 
 Pourquoi avoir un radiateur électrique économique ?

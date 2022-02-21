@@ -1,7 +1,7 @@
 ---
 title: "Dépannage"
 date: 2018-09-25T15:51:35+06:00
-description : "This is meta description"
+description : "ELJP se charge du dépannége auprès des particuliers,ainsi que les professionnels (locaux artisanaux, commerciaux, établissement recevant du public...)"
 image: images/service/service-4.jpg
 bg_image: images/background/page-title.jpg
 icon:
@@ -17,4 +17,4 @@ type : service
 ### Dépannage
 
 
-ELJP se charge du dépannége auprès des particuliers,ainsi que les professionnels (locaux artisanaux, commerciaux, établissement recevant du public,,,)
+ELJP se charge du dépannége auprès des particuliers,ainsi que les professionnels (locaux artisanaux, commerciaux, établissement recevant du public...)

@@ -7,8 +7,8 @@ slider:
   - bg_image : images/banner/banner-1.jpg
     animation_from : left
     subtitle : 
-    title : Installation Electrique
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    title : Installations Electriques
+    content : Nous vous accompagnons lors de votre emménagement, pendant ou après la construction de votre habitation. Installation de votre tableau électrique, d'une alarme incendie, cablage, ajout de prises... nous sommes là pour vous!
 #    pagination_icon : ti-comments # themify icon pack : https://themify.me/themify-icons
     pagination_name : Installation
     button:
@@ -21,7 +21,7 @@ slider:
     animation_from : up
     subtitle : 
     title : Rénovation et mise aux normes
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    content : Un nouveau logement nécessite parfois des rénovations, de légères à relativement lourdes. Nous établissons un diagnostic si besoin, et nous engageons à remettre aux normes l'ensemble de vos installations électriques
 #     pagination_icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
     pagination_name : Rénovation
     button:
@@ -34,7 +34,7 @@ slider:
     animation_from : down
     subtitle : 
     title : Chauffage
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    content : Vous souhaitez réaliser des économies via l'installation de radiateurs récents? Ou vous aimeriez installer un chauffe-serviette dans votre salle de bains? Contactez-nous!
 #     pagination_icon : ti-money # themify icon pack : https://themify.me/themify-icons
     pagination_name : Chauffage
     button:
@@ -47,7 +47,7 @@ slider:
     animation_from : right
     subtitle : 
     title : Pose d'Alarme
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    content : Vous êtes inquiets pour la sécurité de votre maison lors de vos départs en vacances? Nous vous installerons une alarme correspondant à vos besoins.
 #     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
     pagination_name : Alarme
     button:
@@ -60,7 +60,7 @@ slider:
     animation_from : right
     subtitle : 
     title : Domotique
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    content : Vous souhaitez pouvoir piloter à distance votre éclairage, vos volets ou portails, votre chauffage? Notre expérience en matière de domotique nous permet de connecter votre maison selon vos souhaits.
 #     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
     pagination_name : Domotique
     button:
@@ -73,7 +73,7 @@ slider:
     animation_from : right
     subtitle :
     title : Dépannage
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    content : Panne de courant, chauffage hors-service, court-circuit suite à une innondation? N'hésitez pas à nous contacter afin de planifier une intervention.
 #     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
     pagination_name : Dépannage
     button:
@@ -82,11 +82,11 @@ slider:
       link : "service/depannage"
 
   # slider item loop
-  - bg_image : images/banner/banner-6.jpg
+  - bg_image : images/banner/banner-7.jpg
     animation_from : right
     subtitle :
     title : Ventilation VMC
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    content : Nous vous proposons l'installation de VMC simple ou double flux.
 #     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
     pagination_name : Ventilation
     button:

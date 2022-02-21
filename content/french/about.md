@@ -2,7 +2,7 @@
 title: "Qui sommes-nous"
 date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title.jpg
-description : "This is meta description"
+description : "Serge Tatéossian est l'électricien fondateur de ELJP, entreprise basée près d'Evreux (27)"
 layout: "about"
 draft: false
 

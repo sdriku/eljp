@@ -1,7 +1,7 @@
 ---
 title: "Maison Connectée"
 date: 2018-09-25T15:51:35+06:00
-description : "This is meta description"
+description : "La domotique permet de contrôler, d'automatiser et de programmer votre habitat dans le but de vous simplifier la vie, de mieux gérer vos dépenses énergétiques et d’assurer votre sécurité. Commander les fonctions électriques de son habitat, piloter son logement à distance, programmer des scénarios d’usage, optimiser sa consommation énergétique… tout devient possible !"
 image: images/service/service-1.jpg
 bg_image: images/background/page-title.jpg
 # icon: ti-bar-chart # themify icon pack : https://themify.me/themify-icons
@@ -15,6 +15,7 @@ type : service
 ---
 
 ### Maison Connectée, aussi appelé Domotique
+
 
 La domotique c’est quoi ?
 

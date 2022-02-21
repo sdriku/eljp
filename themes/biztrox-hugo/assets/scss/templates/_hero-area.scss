@@ -15,6 +15,12 @@
 			background-position: center center;
 			background-size: cover;
 			outline: 0;
+			
+			/*So user does not need to scroll down on mobil in order to see main categories*/
+			@include mobile {
+				max-height: 85vh;
+			}
+	
 		}
 
 		.prevArrow,
@@ -70,7 +76,7 @@
 			border-bottom: 1px solid $border-color;
 
 			li {
-				width: 300px;
+				width: 200px;
 				height: 80px;
 				background: $white;
 				margin: 0;
@@ -78,19 +84,19 @@
 				position: relative;
 
 				@include desktop-lg {
-					width: 230px;
+					width: 14%;
 				}
 
 				@include desktop {
-					width: 180px;
+					width: 14%;
 				}
 
 				@include tablet {
-					width: 100px;
+					width: 14%;
 				}
 
 				@include mobile {
-					width: 25%;
+					width: 14%;
 				}
 
 				/* @include mobile-xs {
@@ -170,6 +176,12 @@
 		h4 {
 			letter-spacing: 2px;
 		}
+
+		/* So the button is not hidden by categories below */
+		@include mobile {
+			margin-top: -100px;
+		}
+
 	}
 }
 

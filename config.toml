@@ -93,7 +93,7 @@ logo_footer_width = "180px"
 mail = "elec.juste.prix@gmail.com"
 mobile = "06 36 12 23 73"
 # Meta data
-description = "ELJP est une entreprise fournissant des prestations d'Electricité Générale à Evreux et ses alentours."
+description = "ELJP est une entreprise proposant des prestations d'Electricité Générale à Evreux et ses alentours."
 author = "cedrictateo"
 # contact form
 contact_form_action = "#" # contact form works with https://formspree.io or https://formsubmit.co
@@ -238,9 +238,9 @@ contentDir = "content/french"
 weight = 1
 home = "Accueil"
 # footer content
-footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
+footer_content = "ELJP est une micro-entreprise artisanale dont le point fort se caractérise par ma longue expérience en électricité de bâtiment. Ces 30 années passées au service de mes clients sont la garantie d'un travail bien fait."
 # copyright
-copyright = "Copyright &copy; 2022 website created by [codelice.com](https://codelice.com)"
+# copyright later = "Copyright &copy; 2022 website created by [codelice.com](https://codelice.com)"
 
 
 ###################### French navigation ####################

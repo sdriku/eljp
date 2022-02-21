@@ -1,7 +1,7 @@
 ---
 title: "Rénovation et Mise aux normes"
 date: 2018-09-29T11:54:02+06:00
-description : "This is meta description"
+description : "Quand une installation électrique est trop ancienne, sa vétusté peut entraîner des cours-circuits, le risque d’incendie est donc réel. Chaque année, on déplore plus de 80 000 incendies d’origine électrique et des milliers d’accidents corporels !"
 image: images/service/service-5.jpg
 bg_image: images/background/page-title.jpg
 # icon: ti-server
@@ -15,7 +15,6 @@ type : service
 ---
 
 ### Rénovation électrique : A quel moment rénover ?
-
 
 
 1. Dans le cadre d’une rénovation lourde quand l’installation électrique doit être entièrement remplacée,
