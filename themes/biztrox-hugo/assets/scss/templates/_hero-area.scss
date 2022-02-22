@@ -70,7 +70,7 @@
 		}
 
 		.slick-dots {
-			bottom: -81px;
+			margin-bottom: -81px;
 			padding-left: 0;
 			text-align: center;
 			border-bottom: 1px solid $border-color;
@@ -96,7 +96,7 @@
 				}
 
 				@include mobile {
-					width: 14%;
+					width: 25%;
 				}
 
 				/* @include mobile-xs {
