@@ -96,7 +96,7 @@ mobile = "06 36 12 23 73"
 description = "ELJP est une entreprise proposant des prestations d'Electricité Générale à Evreux et ses alentours."
 author = "cedrictateo"
 # contact form
-contact_form_action = "#" # contact form works with https://formspree.io or https://formsubmit.co
+contact_form_action = "https://formspree.io/f/mrgjqjyl" # contact form works with https://formspree.io or https://formsubmit.co
 # custom script
 custom_script = ""
 
