@@ -20,7 +20,7 @@ slider:
   - bg_image : images/banner/banner-2.jpg
     animation_from : up
     subtitle : 
-    title : Rénovation et mise aux normes
+    title : Rénovation
     content : Un nouveau logement nécessite parfois des rénovations, de légères à relativement lourdes. Nous établissons un diagnostic si besoin, et nous engageons à remettre aux normes l'ensemble de vos installations électriques
 #     pagination_icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
     pagination_name : Rénovation

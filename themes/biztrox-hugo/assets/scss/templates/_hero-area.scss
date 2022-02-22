@@ -4,6 +4,11 @@
 	&-slider {
 		&.slick-slider {
 			margin-bottom: 80px;
+
+			@include mobile {
+				max-height: 80vh;
+			}
+
 		}
 
 		[data-animation-in] {
@@ -15,12 +20,6 @@
 			background-position: center center;
 			background-size: cover;
 			outline: 0;
-			
-			/*So user does not need to scroll down on mobil in order to see main categories*/
-			@include mobile {
-				max-height: 85vh;
-			}
-	
 		}
 
 		.prevArrow,
@@ -97,6 +96,7 @@
 
 				@include mobile {
 					width: 25%;
+					height: 55px;
 				}
 
 				/* @include mobile-xs {
