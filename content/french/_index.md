@@ -7,7 +7,7 @@ slider:
   - bg_image : images/banner/banner-1.jpg
     animation_from : left
     subtitle : 
-    title : Installations Electriques
+    title : Installation
     content : Nous vous accompagnons lors de votre emménagement, pendant ou après la construction de votre habitation. Installation de votre tableau électrique, d'une alarme incendie, cablage, ajout de prises... nous sommes là pour vous!
 #    pagination_icon : ti-comments # themify icon pack : https://themify.me/themify-icons
     pagination_name : Installation
