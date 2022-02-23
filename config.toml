@@ -257,7 +257,7 @@ url = "service/"
 weight = 2
 
 [[Languages.fr.menu.main]]
-name = "Qui sommes-nous"
+name = "Qui suis-je"
 url = "about/"
 weight = 3
 
