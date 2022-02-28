@@ -5,7 +5,6 @@ description : "Selon l'ONDRP (observatoire national de la délinquance et des r�
 Quelles sont les spécificités d'un dispositif d'alarme maison ?"
 image: images/service/service-2-w600.jpg
 bg_image: images/background/page-title-w600.jpg
-# icon: ti-thought
 brochure: '#'
 regularDay: Sun-Tues
 regularTime: 08.00am - 06.00pm

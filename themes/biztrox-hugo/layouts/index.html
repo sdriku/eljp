@@ -5,7 +5,7 @@
 	<div class="hero-slider position-relative">
 		<!-- slider item -->
 		{{ range .Params.slider.slider_item }}
-		<div class="hero-slider-item py-160 overlay" style="background-image: url('{{ .bg_image | absURL }}')" data-icon="{{ .pagination_icon }}" data-text="{{ .pagination_name }}">
+		<div class="hero-slider-item py-160 overlay" style="background-image: url('{{ .bg_image | absURL }}')" data-text="{{ .pagination_name }}">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">

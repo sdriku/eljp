@@ -9,7 +9,6 @@ slider:
     subtitle : 
     title : Installation
     content : Nous vous accompagnons lors de votre emménagement, pendant ou après la construction de votre habitation. Installation de votre tableau électrique, d'une alarme incendie, cablage, ajout de prises... nous sommes là pour vous!
-#    pagination_icon : ti-comments # themify icon pack : https://themify.me/themify-icons
     pagination_name : Installation
     button:
       enable : true
@@ -22,7 +21,6 @@ slider:
     subtitle : 
     title : Rénovation
     content : Un nouveau logement nécessite parfois des rénovations, de légères à relativement lourdes. Nous établissons un diagnostic si besoin, et nous engageons à remettre aux normes l'ensemble de vos installations électriques
-#     pagination_icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
     pagination_name : Rénovation
     button:
       enable : true
@@ -35,7 +33,6 @@ slider:
     subtitle : 
     title : Chauffage
     content : Vous souhaitez réaliser des économies via l'installation de radiateurs récents? Ou vous aimeriez installer un chauffe-serviette dans votre salle de bains? Contactez-nous!
-#     pagination_icon : ti-money # themify icon pack : https://themify.me/themify-icons
     pagination_name : Chauffage
     button:
       enable : true
@@ -48,7 +45,6 @@ slider:
     subtitle : 
     title : Pose d'Alarme
     content : Vous êtes inquiets pour la sécurité de votre maison lors de vos départs en vacances? Nous vous installerons une alarme correspondant à vos besoins.
-#     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
     pagination_name : Alarme
     button:
       enable : true
@@ -61,7 +57,6 @@ slider:
     subtitle : 
     title : Domotique
     content : Vous souhaitez pouvoir piloter à distance votre éclairage, vos volets ou portails, votre chauffage? Notre expérience en matière de domotique nous permet de connecter votre maison selon vos souhaits.
-#     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
     pagination_name : Domotique
     button:
       enable : true
@@ -74,7 +69,6 @@ slider:
     subtitle :
     title : Dépannage
     content : Panne de courant, chauffage hors-service, court-circuit suite à une innondation? N'hésitez pas à nous contacter afin de planifier une intervention.
-#     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
     pagination_name : Dépannage
     button:
       enable : true
@@ -87,7 +81,6 @@ slider:
     subtitle :
     title : Ventilation VMC
     content : Nous vous proposons l'installation de VMC simple ou double flux.
-#     pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
     pagination_name : Ventilation
     button:
       enable : true

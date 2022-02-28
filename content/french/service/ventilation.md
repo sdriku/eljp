@@ -4,7 +4,6 @@ date: 2018-09-29T11:54:02+06:00
 description : "ELJP vous propose l'installation de VMC simple ou double flux."
 image: images/service/service-7-w600.jpg
 bg_image: images/background/page-title-w600.jpg
-# icon: ti-server
 brochure: '#'
 regularDay: Sun-Tues
 regularTime: 08.00am - 06.00pm
