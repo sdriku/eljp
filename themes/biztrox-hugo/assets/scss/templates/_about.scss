@@ -58,6 +58,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 400px;
+  background-image: url(/images/about/eljp-fondateur-w1200.jpg) ;
+
+  @include tablet {
+    background-image: url(/images/about/eljp-fondateur-w600.jpg) ;
+  }
+
+  @include mobile {
+    background-image: url(/images/about/eljp-fondateur-w600.jpg) ;
+  }
 }
 
 /* ceo section end */

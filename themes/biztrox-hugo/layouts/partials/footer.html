@@ -101,13 +101,6 @@
 </footer>
 <!-- /footer -->
 
-<!-- Google Map API -->
-{{ if eq .Permalink ("contact/" | absURL) }}
-{{ if site.Params.gmap.enable }}
-<script defer src="https://maps.googleapis.com/maps/api/js?key={{site.Params.gmap.gmap_api}}&libraries=places"></script>
-{{ end }}
-{{ end }}
-
 <!-- JS Plugins -->
 {{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}></script>
@@ -115,7 +108,7 @@
 
 <!-- Main Script -->
 {{ $script := resources.Get "js/script.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
+<script defer src="{{ $script.Permalink }}"></script>
 
 </body>
 

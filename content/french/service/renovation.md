@@ -2,8 +2,8 @@
 title: "Rénovation et Mise aux Normes"
 date: 2018-09-29T11:54:02+06:00
 description : "Quand une installation électrique est trop ancienne, sa vétusté peut entraîner des cours-circuits, le risque d’incendie est donc réel. Chaque année, on déplore plus de 80 000 incendies d’origine électrique et des milliers d’accidents corporels !"
-image: images/service/service-5.jpg
-bg_image: images/background/page-title.jpg
+image: images/service/service-5-w600.jpg
+bg_image: images/background/page-title-w600.jpg
 # icon: ti-server
 brochure: '#'
 regularDay: Sun-Tues

@@ -2,8 +2,8 @@
 title: "Chauffage"
 date: 2018-09-29T11:51:17+06:00
 description : "Quel radiateur électrique économique choisir ?"
-image: images/service/service-6.jpg
-bg_image: images/background/page-title.jpg
+image: images/service/service-6-w600.jpg
+bg_image: images/background/page-title-w600.jpg
 icon:
 brochure: '#'
 regularDay: Sun-Tues
