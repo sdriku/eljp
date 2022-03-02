@@ -50,6 +50,10 @@ link = "plugins/slick/slick-theme.css"
 attributes = ""
 
 [[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+attributes = ""
+
+[[params.plugins.css]]
 link = "plugins/animate/animate.css"
 attributes = ""
 

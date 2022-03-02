@@ -13,7 +13,7 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/installations-electriques"
+      link : "service/installation"
       
   # slider item loop
   - bg_image : images/service/service-5-w600.jpg
@@ -49,7 +49,7 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/pose-dalarme"
+      link : "service/alarme"
 
   # slider item loop
   - bg_image : images/service/service-1-w600.jpg
@@ -61,7 +61,7 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/maison connectee"
+      link : "service/domotique"
 
   # slider item loop
   - bg_image : images/service/service-4-w600.jpg

@@ -1,8 +1,7 @@
 ---
 title: "Alarme"
 date: 2018-09-29T11:51:17+06:00
-description : "Selon l'ONDRP (observatoire national de la délinquance et des réponses pénales), un cambriolage est commis en France toutes les 90 secondes. Face à ce constat, de plus en plus de Français décident d'installer un système d'alarme dans leur maison pour se protéger et être plus rassurés.
-Quelles sont les spécificités d'un dispositif d'alarme maison ?"
+description : "Selon l'ONDRP (observatoire national de la délinquance et des réponses pénales), un cambriolage est commis en France toutes les 90 secondes. Face à ce constat, de plus en plus de Français décident d'installer un système d'alarme dans leur maison pour se protéger et être plus rassurés."
 image: images/service/service-2-w600.jpg
 bg_image: images/background/page-title-w600.jpg
 brochure: '#'
