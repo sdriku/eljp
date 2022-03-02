@@ -2,7 +2,7 @@
 baseURL = "/"
 defaultContentLanguage = "fr"
 defaultContentLanguageSubdir = true
-title = "ELJP - Artisan Electricien basé près d'Evreux"
+title = "ELJP"
 theme = "biztrox-hugo"
 # post pagination
 paginate = "6"
@@ -93,7 +93,7 @@ logo_footer_width = "180px"
 mail = "elec.juste.prix@gmail.com"
 mobile = "06 36 12 23 73"
 # Meta data
-description = "ELJP est une entreprise proposant des prestations d'Electricité Générale à Evreux et ses alentours."
+description = "Votre électricien ELJP intervient à Evreux et ses alentours. Contactez-moi pour une évaluation de vos besoins."
 author = "cedrictateo"
 # contact form
 contact_form_action = "https://formspree.io/f/mrgjqjyl" # contact form works with https://formspree.io or https://formsubmit.co

@@ -2,8 +2,15 @@
 title: "Prestations"
 date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title-w600.jpg
-description : "Veuillez trouver l'ensemble des presations d'électricien proposées par ELJP, entreprise basée près d'Evreux (27)"
-
+description : "Veuillez trouver l'ensemble des prestations d'électricien proposées par ELJP, entreprise basée près d'Evreux (27)"
+keywords:
+- installation électrique
+- rénovation et mise aux normes
+- dépannage
+- chauffage
+- alarme
+- domotique maison connectée
+- ventilation VMC
    
 ---
 

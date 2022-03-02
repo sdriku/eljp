@@ -3,6 +3,10 @@ title: "Qui suis-je"
 date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title-w600.jpg
 description : "Serge Tatéossian est l'électricien fondateur de ELJP, entreprise basée près d'Evreux (27)"
+keywords:
+- département de l'Eure
+- Evreux
+- Guichainville
 layout: "about"
 draft: false
 

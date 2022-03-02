@@ -3,6 +3,10 @@ title: "Contact"
 date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title-w600.jpg
 description : "Voici les numéros de téléphone, email et adresse de votre electricien ELJP basé à proximité d'Evreux (27)"
+keywords:
+- téléphone
+- adresse email
+- adresse
 layout: "contact"
 
 ############################ Contact information ############################
