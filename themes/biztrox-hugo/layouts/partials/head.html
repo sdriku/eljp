@@ -1,14 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
-
-  <link rel="preload" href="https://fonts.gstatic.com">
-{{ range site.Params.plugins.css}}
-  <!-- title meta tag -->
-  <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
-  
-  <!-- keyword meta tag -->
-  <meta content="{{ delimit .Keywords ", " }}" name="keywords">
+  <title>{{ .Title }}</title>
 
   <!-- description meta tag -->
   <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}" property="og:description">
@@ -29,9 +21,6 @@
 
   {{ partialCached "style.html" . }}
 
-    <!-- Include the script that enables Netlify Identity on this page. -->
-    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    
   <meta name="google-site-verification" content="ElYNIIz4NA5Qx10DhGnU-1yvWgjOJ0B2BmFk1vYfatw" />
 
 </head>
