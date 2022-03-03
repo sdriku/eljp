@@ -43,19 +43,19 @@ attributes = "media='screen'"
 
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-attributes = ""
+attributes = "defer"
 
 [[params.plugins.css]]
 link = "plugins/slick/slick-theme.css"
-attributes = ""
+attributes = "defer"
 
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-attributes = ""
+attributes = "defer"
 
 [[params.plugins.css]]
 link = "plugins/animate/animate.css"
-attributes = ""
+attributes = "defer"
 
 
 # JS Plugins
@@ -69,7 +69,7 @@ attributes = ""
 
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
-attributes = ""
+attributes = "defer"
 
 [[params.plugins.js]]
 link = "plugins/magnific-popup/magnific-popup.min.js"
