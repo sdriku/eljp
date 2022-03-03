@@ -2,6 +2,8 @@
   <meta charset="utf-8">
   <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
 
+  <link rel="preload" href="https://fonts.gstatic.com">
+{{ range site.Params.plugins.css}}
   <!-- title meta tag -->
   <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
   
@@ -28,7 +30,5 @@
   {{ partialCached "style.html" . }}
 
   <meta name="google-site-verification" content="ElYNIIz4NA5Qx10DhGnU-1yvWgjOJ0B2BmFk1vYfatw" />
-
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>

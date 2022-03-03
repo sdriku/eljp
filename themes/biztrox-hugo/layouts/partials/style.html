@@ -8,8 +8,6 @@
 <link rel="icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
 
 <!-- plugins -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-{{ range site.Params.plugins.css}}
 <link rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}>
 {{ end }}
 
