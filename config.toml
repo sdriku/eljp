@@ -1,10 +1,11 @@
 ######################### default configuration ###############################
-baseURL = "/"
+baseURL = "https://electricite-eljp.com/"
 defaultContentLanguage = "fr"
 defaultContentLanguageSubdir = true
 title = "Votre électricien ELJP intervient à Evreux et ses alentours."
 theme = "biztrox-hugo"
 enableRobotsTXT = true
+canonifyURLs = true
 # post pagination
 paginate = "6"
 # post excerpt
@@ -22,6 +23,11 @@ home = ["HTML", "RSS"]
 
 [markup.goldmark.renderer]
 unsafe= true
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
 
 ############################# Plugins ##############################
 
