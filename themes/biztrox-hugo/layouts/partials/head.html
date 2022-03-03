@@ -1,10 +1,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=5">
-  <title>{{ .Title }}</title>
+  <!-- <title>{{ .Title }}</title> -->
 
-  <!-- description meta tag -->
-  <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Description }}{{ end }}" property="og:description">
+  <!-- mobile responsive meta -->
+  <!-- <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}"> -->
+  
+<meta property="og:site_name" content="{{ $.Site.Title }}" />
+<meta property="og:title" content="{{ $.Site.Title }}" />
+
+{{ if .IsPage }}
+  <title>{{ .Title }} | {{ $.Site.Title }}</title>
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:description" content="{{ .Description }}" />
+  <meta name="description" content="{{ .Description }}" />
+{{ else }}
+  <title>{{ $.Site.Title }}</title>
+  <meta property="og:title" content="{{ $.Site.Title }}" />
+  <meta property="og:description" content="{{ site.Params.description }}" />
+  <meta name="description" content="{{ site.Params.description }}" />
+{{ end }}
 
   <!-- multilingual SEO optimizations -->
   {{ if .IsTranslated }}

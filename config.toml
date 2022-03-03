@@ -2,8 +2,9 @@
 baseURL = "/"
 defaultContentLanguage = "fr"
 defaultContentLanguageSubdir = true
-title = "ELJP"
+title = "Votre électricien ELJP intervient à Evreux et ses alentours."
 theme = "biztrox-hugo"
+enableRobotsTXT = true
 # post pagination
 paginate = "6"
 # post excerpt
