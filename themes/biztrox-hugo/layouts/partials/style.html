@@ -22,4 +22,3 @@
 {{ $custom := resources.Get "scss/custom.scss" | minify }}
 <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
 {{ end }}
-

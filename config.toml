@@ -50,19 +50,19 @@ attributes = "media='screen'"
 
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-attributes = "defer"
+attributes = ""
 
 [[params.plugins.css]]
 link = "plugins/slick/slick-theme.css"
-attributes = "defer"
+attributes = ""
 
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-attributes = "defer"
+attributes = ""
 
 [[params.plugins.css]]
 link = "plugins/animate/animate.css"
-attributes = "defer"
+attributes = ""
 
 
 # JS Plugins
