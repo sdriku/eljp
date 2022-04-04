@@ -61,11 +61,11 @@
   background-image: url(/images/about/eljp-fondateur-w1200.jpg) ;
 
   @include tablet {
-    background-image: url(/images/about/eljp-fondateur-w600.jpg) ;
+    background-image: url(/images/about/eljp-fondateur-w800.jpg) ;
   }
 
   @include mobile {
-    background-image: url(/images/about/eljp-fondateur-w600.jpg) ;
+    background-image: url(/images/about/eljp-fondateur-w400.jpg) ;
   }
 }
 

@@ -292,6 +292,14 @@ button {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 160px 0 100px;
+	background-image: url('/images/background/page-title-w1200.jpg');
+
+		include tablet {
+		background-image: url('/images/background/page-title-w800.jpg');
+		}
+		@include mobile {
+		background-image: url('/images/background/page-title-w400.jpg');
+		}
 }
 
 /* breadcrumb */

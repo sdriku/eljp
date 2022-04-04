@@ -1,4 +1,4 @@
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
 {{ with site.Params.author }}
 <meta name="author" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}
@@ -22,3 +22,4 @@
 {{ $custom := resources.Get "scss/custom.scss" | minify }}
 <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
 {{ end }}
+

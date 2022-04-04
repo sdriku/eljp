@@ -38,6 +38,15 @@
 
   {{ partialCached "style.html" . }}
 
-  <meta name="google-site-verification" content="ElYNIIz4NA5Qx10DhGnU-1yvWgjOJ0B2BmFk1vYfatw" />
+    <!-- JS Plugins -->
+{{ range site.Params.plugins.js}}
+<script defer src="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}></script>
+{{ end }}
+
+<!-- Main Script -->
+{{ $script := resources.Get "js/script.js" | minify}}
+<script defer src="{{ $script.Permalink }}"></script>
+
+<meta name="google-site-verification" content="ElYNIIz4NA5Qx10DhGnU-1yvWgjOJ0B2BmFk1vYfatw" />
 
 </head>

@@ -7,11 +7,7 @@
 					<div class="mb-5 mb-md-0 text-center text-md-left">
 						<!-- logo -->
 						<a class="mb-30 d-inline-block" href="{{ site.BaseURL | relLangURL }}">
-							{{ if site.Params.logo_footer }}
-							<img class="img-fluid" width="{{site.Params.logo_footer_width}}" src="{{ site.Params.logo_footer | absURL}}" alt="{{ site.Title }}">
-							{{ else }}
-							{{site.Title}}
-							{{ end }}
+							<picture><source srcset="{{ .Site.Params.logodesktop_footer | absURL }}" media="(min-width: 800px)"><img class="img-fluid" width="{{site.Params.logo_footer_width}}" src="{{ .Site.Params.logomobile_footer | absURL }}" alt="{{ site.Title }}"></picture>
 						</a>
 						{{ with site.Params.footer_content }}<p class="text-white mb-30">{{ . | markdownify }}</p>{{ end }}
 					</div>
@@ -20,7 +16,7 @@
 				<div class="col-lg-2 col-md-4 col-6">
 					<h4 class="text-white mb-4">{{ i18n "services" }}</h4>
 					<ul class="footer-links">
-						{{ range ( where site.RegularPages "Type" "service") }}
+						{{ range ( where site.RegularPages "Type" "prestations") }}
 						<li><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></li>
 						{{ end }}
 					</ul>
@@ -51,8 +47,11 @@
 						{{ range site.Menus.footer }}
 						<li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
 							<a class="font-secondary text-white" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-						</li>
+						</li> 
 						{{ end }}
+						<li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
+							<a class="font-secondary text-white" href="{{ .Site.BaseURL }}mentionslegales">Mentions légales</a>
+						</li> 
 					</ul>
 				</div>
 			</div>
@@ -65,14 +64,6 @@
 </footer>
 <!-- /footer -->
 
-<!-- JS Plugins -->
-{{ range site.Params.plugins.js}}
-<script defer src="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}></script>
-{{ end }}
-
-<!-- Main Script -->
-{{ $script := resources.Get "js/script.js" | minify}}
-<script defer src="{{ $script.Permalink }}"></script>
 
 </body>
 

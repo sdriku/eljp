@@ -33,8 +33,8 @@ priority = 0.5
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap"
-attributes = ""
+link = "https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=optional"
+attributes = "preload"
 
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -68,11 +68,11 @@ attributes = "defer"
 # JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
-attributes = ""
+attributes = "defer"
 
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-attributes = ""
+attributes = "defer"
 
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
@@ -80,22 +80,24 @@ attributes = "defer"
 
 [[params.plugins.js]]
 link = "plugins/magnific-popup/magnific-popup.min.js"
-attributes = ""
+attributes = "defer"
 
 [[params.plugins.js]]
 link = "plugins/filterizr/jquery.filterizr.min.js"
-attributes = ""
+attributes = "defer"
 
-[[params.plugins.js]]
-link = "plugins/google-map/gmap.js"
-attributes = "async"
+##[[params.plugins.js]]
+##link = "plugins/google-map/gmap.js"
+##attributes = "async"
 
 ########################### default parameters #################################
 [params]
 favicon = "images/eljp-logo-icon.png"
-logo = "images/eljp-logo1.png"
+logodesktop = "images/eljp-logo-desktop.png"
+logomobile = "images/eljp-logo-mobile.png"
 logo_width = "180px"
-logo_footer = "images/eljp-logo-footer.png"
+logodesktop_footer = "images/eljp-logo-desktop-footer.png"
+logomobile_footer = "images/eljp-logo-mobile-footer.png"
 logo_footer_width = "180px"
 mail = "elec.juste.prix@gmail.com"
 mobile = "06 36 12 23 73"
@@ -205,8 +207,7 @@ weight = 1
 home = "Accueil"
 # footer content
 footer_content = "ELJP est une micro-entreprise artisanale dont le point fort se caractérise par ma longue expérience en électricité de bâtiment. Ces 30 années passées au service de mes clients sont la garantie d'un travail bien fait."
-# copyright
-# copyright later = "Copyright &copy; 2022 website created by [codelice.com](https://codelice.com)"
+copyright = "Copyright &copy; 2022 website created by [codelice.com](https://codelice.com)"
 
 
 ###################### French navigation ####################
@@ -219,12 +220,12 @@ weight = 1
 
 [[Languages.fr.menu.main]]
 name = "Prestations"
-url = "service/"
+url = "prestations/"
 weight = 2
 
 [[Languages.fr.menu.main]]
 name = "Qui suis-je"
-url = "about/"
+url = "quisuisje/"
 weight = 3
 
 [[Languages.fr.menu.main]]

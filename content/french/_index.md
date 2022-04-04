@@ -4,7 +4,7 @@ slider:
   enable : true
   slider_item:
   # slider item loop
-  - bg_image : images/service/service-3-w600.jpg
+  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
     animation_from : left
     subtitle : 
     title : Installation
@@ -16,7 +16,7 @@ slider:
       link : "service/installation"
       
   # slider item loop
-  - bg_image : images/service/service-5-w600.jpg
+  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
     animation_from : up
     subtitle : 
     title : Rénovation
@@ -28,7 +28,7 @@ slider:
       link : "service/renovation"
       
   # slider item loop
-  - bg_image : images/service/service-6-w600.jpg
+  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
     animation_from : down
     subtitle : 
     title : Chauffage
@@ -40,10 +40,10 @@ slider:
       link : "service/chauffage"
       
   # slider item loop
-  - bg_image : images/service/service-2-w600.jpg
+  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
     animation_from : right
     subtitle : 
-    title : Pose d'Alarme
+    title : Alarme
     content : Vous êtes inquiets pour la sécurité de votre maison lors de vos départs en vacances? Nous vous installerons une alarme correspondant à vos besoins.
     pagination_name : Alarme
     button:
@@ -52,7 +52,7 @@ slider:
       link : "service/alarme"
 
   # slider item loop
-  - bg_image : images/service/service-1-w600.jpg
+  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
     animation_from : right
     subtitle : 
     title : Domotique
@@ -64,7 +64,7 @@ slider:
       link : "service/domotique"
 
   # slider item loop
-  - bg_image : images/service/service-4-w600.jpg
+  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
     animation_from : right
     subtitle :
     title : Dépannage
@@ -76,7 +76,7 @@ slider:
       link : "service/depannage"
 
   # slider item loop
-  - bg_image : images/service/service-7-w600.jpg
+  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
     animation_from : right
     subtitle :
     title : Ventilation VMC
