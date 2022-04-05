@@ -4,10 +4,10 @@
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-md-4">
-					<div class="mb-5 mb-md-0 text-center text-md-left">
+					<div class="mb-0 mb-md-0 text-center text-md-left">
 						<!-- logo -->
 						<a class="mb-30 d-inline-block" href="{{ site.BaseURL | relLangURL }}">
-							<picture><source srcset="{{ .Site.Params.logodesktop_footer | absURL }}" media="(min-width: 800px)"><img class="img-fluid" width="180" height="44" src="{{ .Site.Params.logomobile_footer | absURL }}" alt="{{ site.Title }}"></picture>
+							<picture><source width="180" height="44" srcset="{{ .Site.Params.logodesktop_footer | absURL }}" media="(min-width: 800px)"><img class="img-fluid" src="{{ .Site.Params.logomobile_footer | absURL }}" alt="{{ site.Title }}"></picture>
 						</a>
 						{{ with site.Params.footer_content }}<p class="text-white mb-30">{{ . | markdownify }}</p>{{ end }}
 					</div>
