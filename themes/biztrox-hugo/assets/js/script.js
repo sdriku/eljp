@@ -9,14 +9,6 @@ $(document).on("turbolinks:load", preloader);
 (function ($) {
 	'use strict';
 
-	//  Search Form Open
-	$('#searchOpen').on('click', function () {
-		$('.search-form').addClass('open');
-	});
-	$('#searchClose').on('click', function () {
-		$('.search-form').removeClass('open');
-	});
-
 	//Hero Slider
 	$('.hero-slider').slick({
 		autoplay: true,
