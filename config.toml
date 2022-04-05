@@ -36,13 +36,9 @@ priority = 0.5
 ##link = "https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap"
 ##attributes = ""
 
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-attributes = "media='screen'"
-
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-attributes = "media='screen'"
+##[[params.plugins.css]]
+##link = "plugins/bootstrap/bootstrap.min.css"
+##attributes = "media='screen'"
 
 ##[[params.plugins.css]]
 ##link = "plugins/magnific-popup/magnific-popup.css"
@@ -68,7 +64,7 @@ attributes = ""
 
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-attributes = ""
+attributes = "defer"
 
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
