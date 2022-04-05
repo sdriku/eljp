@@ -23,8 +23,8 @@ $(document).on("turbolinks:load", preloader);
 		infinite: true,
 		autoplaySpeed: 10000,
 		arrows: true,
-		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i><img height="40px" width="40px" src="images/icons8-u-turn-to-left-90.png"/></i></button>',
-		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i><img height="40px" width="40px" src="images/icons8-u-turn-to-right-90.png"/></i></button>',
+		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i><img height="40px" width="40px" src="images/icons8-u-turn-to-left-90.png" alt="précédent"/></i></button>',
+		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i><img height="40px" width="40px" src="images/icons8-u-turn-to-right-90.png" alt="suivant"/></i></button>',
 		dots: true,
 		customPaging: function (slider, i) {
 			var icon = $(slider.$slides[i]).data('icon');
@@ -45,42 +45,6 @@ $(document).on("turbolinks:load", preloader);
 	});
 	$('.hero-slider').slickAnimation();
 
-	// slick slider
-	$('.work-slider').slick({
-		dots: true,
-		infinite: true,
-		speed: 300,
-		slidesToShow: 4,
-		slidesToScroll: 4,
-		arrows: false,
-		autoplay: true,
-		responsive: [{
-				breakpoint: 1024,
-				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 3,
-					infinite: true,
-					dots: true
-				}
-			},
-			{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2
-				}
-			},
-			{
-				breakpoint: 401,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-		]
-	});
-
-	
 
 	// animation scroll js
 	var html_body = $('html, body');

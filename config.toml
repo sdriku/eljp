@@ -44,9 +44,9 @@ attributes = "media='screen'"
 link = "plugins/bootstrap/bootstrap.min.css"
 attributes = "media='screen'"
 
-[[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
-attributes = "media='screen'"
+##[[params.plugins.css]]
+##link = "plugins/magnific-popup/magnific-popup.css"
+##attributes = "media='screen'"
 
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
@@ -74,13 +74,13 @@ attributes = ""
 link = "plugins/slick/slick.min.js"
 attributes = ""
 
-[[params.plugins.js]]
-link = "plugins/magnific-popup/magnific-popup.min.js"
-attributes = ""
+##[[params.plugins.js]]
+##link = "plugins/magnific-popup/magnific-popup.min.js"
+##attributes = ""
 
-[[params.plugins.js]]
-link = "plugins/filterizr/jquery.filterizr.min.js"
-attributes = ""
+##[[params.plugins.js]]
+##link = "plugins/filterizr/jquery.filterizr.min.js"
+##attributes = ""
 
 ########################### default parameters #################################
 [params]
