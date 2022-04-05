@@ -23,8 +23,8 @@ $(document).on("turbolinks:load", preloader);
 		infinite: true,
 		autoplaySpeed: 10000,
 		arrows: true,
-		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
-		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>',
+		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i><img height="40px" width="40px" src="images/icons8-u-turn-to-left-90.png"/></i></button>',
+		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i><img height="40px" width="40px" src="images/icons8-u-turn-to-right-90.png"/></i></button>',
 		dots: true,
 		customPaging: function (slider, i) {
 			var icon = $(slider.$slides[i]).data('icon');
@@ -34,7 +34,12 @@ $(document).on("turbolinks:load", preloader);
 		responsive: [{
 			breakpoint: 576,
 			settings: {
+				autoplay: false,
 				arrows: false
+			}}{
+			breakpoint: 900,
+			settings: {
+				autoplay: false
 			}
 		}]
 	});

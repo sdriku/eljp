@@ -4,7 +4,7 @@ slider:
   enable : true
   slider_item:
   # slider item loop
-  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
+  - bg_image : "images/service/installation-w1200.jpg"
     animation_from : left
     subtitle : 
     title : Installation
@@ -16,7 +16,7 @@ slider:
       link : "service/installation"
       
   # slider item loop
-  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
+  - bg_image : "images/service/renovation-w1200.jpg"
     animation_from : up
     subtitle : 
     title : Rénovation
@@ -28,7 +28,7 @@ slider:
       link : "service/renovation"
       
   # slider item loop
-  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
+  - bg_image : "images/service/chauffage-w1200.jpg"
     animation_from : down
     subtitle : 
     title : Chauffage
@@ -40,7 +40,7 @@ slider:
       link : "service/chauffage"
       
   # slider item loop
-  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
+  - bg_image : "images/service/alarme-w1200.jpg"
     animation_from : right
     subtitle : 
     title : Alarme
@@ -52,7 +52,7 @@ slider:
       link : "service/alarme"
 
   # slider item loop
-  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
+  - bg_image : "images/service/domotique-w1200.jpg"
     animation_from : right
     subtitle : 
     title : Domotique
@@ -64,7 +64,7 @@ slider:
       link : "service/domotique"
 
   # slider item loop
-  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
+  - bg_image : "images/service/depannage-w1200.jpg"
     animation_from : right
     subtitle :
     title : Dépannage
@@ -76,7 +76,7 @@ slider:
       link : "service/depannage"
 
   # slider item loop
-  - bgimagesm : no way to serve different sizes, image set as background with internal CSS from index.html
+  - bg_image : "images/service/ventilation-w1200.jpg"
     animation_from : right
     subtitle :
     title : Ventilation VMC

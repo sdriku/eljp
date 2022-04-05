@@ -9,6 +9,7 @@
 
 <!-- plugins -->
 <link rel="preconnect" href="https://fonts.gstatic.com" as="document">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=optional" as="style" type="text/css" crossorigin="anonymous">
 {{ range site.Params.plugins.css}} 
 <link rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}}>
 {{ end }}

@@ -8,14 +8,17 @@ layout: "contact"
 ############################ Contact information ############################
 contact_info:
 - name: "mobile"
-  icon: "ti-mobile"
+  icon: "images/contact/icons8-phone.png"
+  alt: "Mon numéro de téléphone"
   content: "06 36 12 23 73"
   
 - name: "mail"
-  icon: "ti-email"
+  icon: "images/contact/icons8-email.png"
+  alt: "Mon adresse email"
   content: "elec.juste.prix@gmail.com"
   
 - name: "location"
-  icon: "ti-map-alt"
+  icon: "images/contact/icons8-location.png"
+  alt: "Mon adresse"
   content: "13 Le Vieux Terrier <br> 27930 Guichainville"
 ---

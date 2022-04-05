@@ -3,19 +3,14 @@
 <style type="text/css">
     @media (max-width: 576px) {
     .hero-bg-responsive {
-    background-image: url('/images/service/depannage-w400.jpg');
+    background-image: url('/images/service/depannage-w400.jpg') !important;
     }
   }
-    @media (min-width: 577px) {
+  	@media (max-width: 900px) {
     .hero-bg-responsive {
-    background-image: url('/images/service/depannage-w800.jpg');
+    background-image: url('/images/service/depannage-w800.jpg') !important;
     }
   }
-    @media (min-width: 900px) {
-    .hero-bg-responsive {
-    background-image: url('/images/service/depannage-w1200.jpg')
-      }
-    }
 </style>
 
 
@@ -24,7 +19,7 @@
 	<div class="hero-slider position-relative">
 		<!-- slider item -->
 		{{ range .Params.slider.slider_item }}
-		<div class="hero-slider-item py-160 overlay hero-bg-responsive" data-text="{{ .pagination_name }}">
+		<div class="hero-slider-item py-160 overlay hero-bg-responsive" style="background-image: url('{{ .bg_image | absURL }}')" data-text="{{ .pagination_name }}">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">

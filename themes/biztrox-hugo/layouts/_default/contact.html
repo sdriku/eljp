@@ -12,7 +12,7 @@
 					{{ "<!-- contact items -->" | safeHTML }}
 					{{ range .Params.contact_info }}
 					<li class="d-flex mb-30">
-						<i class="round-icon mr-3 {{ .icon }}"></i>
+						<i class="round-icon mr-4"><img height="80" width="80" src="{{ .icon | relURL }}" alt="{{ .alt }}"/></i>
 						<div class="align-self-center font-primary">
 							<div class="text-dark">{{ .content | markdownify }}</div>
 						</div>

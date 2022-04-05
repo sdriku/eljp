@@ -32,9 +32,9 @@ priority = 0.5
 ############################# Plugins ##############################
 
 # CSS Plugins
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap"
-attributes = ""
+##[[params.plugins.css]]
+##link = "https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap"
+##attributes = ""
 
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -57,10 +57,6 @@ link = "plugins/slick/slick-theme.css"
 attributes = ""
 
 [[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-attributes = ""
-
-[[params.plugins.css]]
 link = "plugins/animate/animate.css"
 attributes = ""
 
@@ -72,7 +68,7 @@ attributes = ""
 
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-attributes = "deer"
+attributes = ""
 
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
@@ -80,15 +76,11 @@ attributes = ""
 
 [[params.plugins.js]]
 link = "plugins/magnific-popup/magnific-popup.min.js"
-attributes = "deer"
+attributes = ""
 
 [[params.plugins.js]]
 link = "plugins/filterizr/jquery.filterizr.min.js"
 attributes = ""
-
-##[[params.plugins.js]]
-##link = "plugins/google-map/gmap.js"
-##attributes = "async"
 
 ########################### default parameters #################################
 [params]
