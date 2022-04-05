@@ -7,7 +7,7 @@
 					<div class="mb-5 mb-md-0 text-center text-md-left">
 						<!-- logo -->
 						<a class="mb-30 d-inline-block" href="{{ site.BaseURL | relLangURL }}">
-							<picture><source srcset="{{ .Site.Params.logodesktop_footer | absURL }}" media="(min-width: 800px)"><img class="img-fluid" width="{{site.Params.logo_footer_width}}" src="{{ .Site.Params.logomobile_footer | absURL }}" alt="{{ site.Title }}"></picture>
+							<picture><source srcset="{{ .Site.Params.logodesktop_footer | absURL }}" media="(min-width: 800px)"><img class="img-fluid" width="180" height="44" src="{{ .Site.Params.logomobile_footer | absURL }}" alt="{{ site.Title }}"></picture>
 						</a>
 						{{ with site.Params.footer_content }}<p class="text-white mb-30">{{ . | markdownify }}</p>{{ end }}
 					</div>
@@ -58,7 +58,7 @@
 		</div>
 		<!-- back to top -->
 		<button class="back-to-top" aria-label="retour en haut de page">
-			<i><img src="/images/icons8-arrow-up.png" alt="retour en haut de page"/></i>
+			<i><img width="60" height="60" src="/images/icons8-arrow-up.png" alt="retour en haut de page"/></i>
 		</button>
 	</div>
 </footer>
