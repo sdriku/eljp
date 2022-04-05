@@ -30,14 +30,13 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="hero-content">
-							<h1 class="font-weight-bold text-white mb-3" data-duration-in=".5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in=".4">
+							<h1 class="font-weight-bold text-white mb-3">
 								{{ .title | markdownify }}</h1>
-							<p class="text-white mb-50" data-duration-in=".5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in=".7">
+							<p class="text-white mb-50">
 								{{ .content | markdownify }}
 							</p>
 							{{ if .button.enable }}
-							<a data-duration-in=".5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in="1"
-								href="{{ .button.link | relLangURL }}" class="btn btn-outline text-uppercase">{{ .button.label }}</a>
+							<a href="{{ .button.link | relLangURL }}" class="btn btn-outline text-uppercase">{{ .button.label }}</a>
 							{{ end }}
 						</div>
 					</div>
