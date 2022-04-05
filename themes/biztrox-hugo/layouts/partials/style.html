@@ -15,9 +15,3 @@
 <!-- Main Stylesheet -->
 {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
 <link rel="stylesheet" as="style" href="{{ $styles.Permalink }}" media="screen" >
-
-<!-- Custom stylesheet - for your changes -->
-{{ if fileExists "scss/custom.scss" }}
-{{ $custom := resources.Get "scss/custom.scss" | minify }}
-<link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
-{{ end }}
