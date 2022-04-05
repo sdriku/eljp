@@ -52,9 +52,9 @@ attributes = ""
 link = "plugins/slick/slick-theme.css"
 attributes = ""
 
-[[params.plugins.css]]
-link = "plugins/animate/animate.css"
-attributes = ""
+##[[params.plugins.css]]
+##link = "plugins/animate/animate.css"
+##attributes = ""
 
 
 # JS Plugins
