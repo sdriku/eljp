@@ -35,38 +35,35 @@ collections:
       - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparaitra depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
       - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + parlez de votre prestation en détail + ajoutez une ou deux photos si nécessaire + soyez concis mais percutant + pensez à introduire vos mots clés' }
 
-  - name: 'sectionquisuisje'
-    label: 'Section Qui suis-je'
-    description: 'Modifiez ici la page principale nommée Qui suis-je'
-    folder: 'content/french/quisuisje'
-    create: false
-    editor:
-      preview: true
-    filter: {field: "mainsection", value: "true"}
-    fields:
-      - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
-      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
-      - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + ajoutez quelques mots clés si possible' }
-
-  - name: 'contact'
-    label: 'Contact'
-    description: 'Modifiez ici votre page Contact'
-    folder: 'content/french/contact'
-    create: false
-    editor:
-      preview: true
-    fields:
-      - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
-      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
-
-  - name: 'mentionslegales'
-    label: 'Mentions légales'
-    description: 'Modifiez ici vos Mentions Légales'
-    folder: 'content/french/mentionslegales'
-    create: false
-    editor:
-      preview: true
-    fields:
-      - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
-      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
-      - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + listez ici vos Mentions Légales' }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: 'sectionquisuisje'
+        label: 'Qui suis-je'
+        description: 'Modifiez ici votre page Qui suis-je'
+        file: 'content/french/quisuisje.md'
+        editor:
+          preview: true
+        fields:
+          - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
+          - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+          - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + ajoutez quelques mots clés si possible' }
+      - name: 'contact'
+        label: 'Contact'
+        description: 'Modifiez ici votre page Contact'
+        file: 'content/french/contact.md'
+        editor:
+          preview: true
+        fields:
+          - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
+          - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+      - name: 'mentionslegales'
+        label: 'Mentions légales'
+        description: 'Modifiez ici vos Mentions Légales'
+        file: 'content/french/mentionslegales.md'
+        editor:
+          preview: true
+        fields:
+          - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
+          - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+          - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + listez ici vos Mentions Légales' }
