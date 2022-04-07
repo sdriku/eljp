@@ -1,6 +1,7 @@
 ---
 title: "Ventilation"
 date: 2018-09-29T11:54:02+06:00
+mainsection: 'false'
 description : "ELJP vous propose l'installation de VMC simple ou double flux."
 imagesm: images/service/ventilation-w400.jpg
 imagemd: images/service/ventilation-w800.jpg

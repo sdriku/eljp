@@ -1,6 +1,7 @@
 ---
 title: "Installations Electriques"
 date: 2018-09-29T11:54:02+06:00
+mainsection: 'false'
 description : "Nous vous accompagnons lors de votre emménagement, pendant ou après la construction de votre habitation"
 imagesm: images/service/installation-w400.jpg
 imagemd: images/service/installation-w800.jpg

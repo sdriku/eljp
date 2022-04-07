@@ -4,7 +4,6 @@ date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title-w600.jpg
 description: 'Voici les Mentions légales de ELJP - Electricité Le Juste Prix.'
 layout: "mentionslegales"
-draft: false
 ---
 
 ## Editeur du site Internet

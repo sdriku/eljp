@@ -1,47 +1,72 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: themes/biztrox-hugo/assets/img
+
+site_url: https://electricite-eljp.com/
+display_url: https://electricite-eljp.com/
+logo_url: https://electricite-eljp.com/images/eljp-logo-desktop.png
+locale: 'fr'
+
+media_folder: themes/hugo-hero-theme-master/assets/img
 public_folder: /img
 collections:
-  - name: 'prestations'
-    label: 'Prestations'
-    folder: 'content/french/prestations'
+  - name: 'sectionprestations'
+    label: 'Section Prestations'
+    description: 'Modifiez ici la page principale nommée Prestations'
+    folder: 'content/prestations'
+    create: false
+    editor:
+      preview: true
+    filter: {field: "mainsection", value: "true"}
+    fields:
+      - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
+      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + brêve introduction qui apparait juste au dessus de la liste de vos prestations' }
+  - name: 'mesprestations'
+    label: 'Mes Prestations'
+    description: 'Modifiez ici la page dédiée à chacune de vos prestations'
+    folder: 'content/prestations'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: true
+    filter: {field: "mainsection", value: "false"}
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Intitulé sous-section et Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est lintitulé de votre prestation sur le site + le titre SEO de votre page' }
+      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparaitra depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + parlez de votre prestation en détail + ajoutez une ou deux photos si nécessaire + soyez concis mais percutant + pensez à introduire vos mots clés' }
 
-  - name: 'quisuisje'
-    label: 'Qui suis-je'
-    folder: 'content/french/quisuisje'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  - name: 'sectionquisuisje'
+    label: 'Section Qui suis-je'
+    description: 'Modifiez ici la page principale nommée Qui suis-je'
+    folder: 'content/pages/quisuisje'
+    create: false
+    editor:
+      preview: true
+    filter: {field: "mainsection", value: "true"}
+    fields:
+      - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
+      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + ajoutez quelques mots clés si possible' }
+
+  - name: 'contact'
+    label: 'Contact'
+    description: 'Modifiez ici votre page Contact'
+    folder: 'content/contact'
+    create: false
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Summary', name: 'summary', widget: 'string' }     
-      - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      
+      - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
+      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+
   - name: 'mentionslegales'
     label: 'Mentions légales'
-    folder: 'content/french/mentionslegales'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    description: 'Modifiez ici vos Mentions Légales'
+    folder: 'content/mentionslegales'
+    create: false
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Summary', name: 'summary', widget: 'string' }     
-      - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
+      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + listez ici vos Mentions Légales' }

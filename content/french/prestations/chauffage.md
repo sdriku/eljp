@@ -1,6 +1,7 @@
 ---
 title: "Chauffage"
 date: 2018-09-29T11:51:17+06:00
+mainsection: 'false'
 description : "Quel radiateur électrique économique choisir ?"
 imagesm: images/service/chauffage-w400.jpg
 imagemd: images/service/chauffage-w800.jpg
