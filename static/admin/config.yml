@@ -35,8 +35,8 @@ collections:
       - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparaitra depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
       - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + parlez de votre prestation en détail + ajoutez une ou deux photos si nécessaire + soyez concis mais percutant + pensez à introduire vos mots clés' }
 
-  - name: "pages"
-    label: "Pages"
+  - name: "autresections"
+    label: "Autres Sections"
     files:
       - name: 'sectionquisuisje'
         label: 'Qui suis-je'
