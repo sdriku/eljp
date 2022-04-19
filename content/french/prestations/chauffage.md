@@ -40,4 +40,4 @@ Il n’en faut pas plus pour faire du radiateur électrique économique un véri
 
 
 
-**ELJP pose également des [radiateurs économique intelligents](service/maison-connectee) à des prix très abordables.**
+**ELJP pose également des [radiateurs économique intelligents](/prestations/domotique) à des prix très abordables.**
