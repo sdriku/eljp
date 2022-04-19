@@ -1,0 +1,80 @@
+<style>
+
+.alert {
+    position:relative;
+    text-align:left;
+    padding:10px 15px;
+    min-height:30px;
+    margin:1em 0 0;
+    border:none;
+    border-left:3px solid;
+    word-break:break-word
+}
+
+.alert p {
+    margin:1.5em 0 0
+}
+
+.alert p:first-child {
+    margin:0
+}
+
+.alert:not(.no-icon) {
+    padding-left:55px
+}
+
+.alert:not(.no-icon):before {
+    position:absolute;
+    top:10px;
+    left:15px;
+    font-family:"Font Awesome 5 Free";
+    font-weight:600;
+    font-size:2rem
+}
+
+.alert.info {
+    border-color:#349ef3;
+    background-color:#e6f3fe
+}
+
+.alert.info:not(.no-icon):before {
+    content:"";
+    color:#349ef3
+}
+
+.alert.success {
+    border-color:#4dc657;
+    background-color:#effaf0;
+    content:""
+}
+
+.alert.success:not(.no-icon):before {
+    content:"";
+    color:#4dc657
+}
+
+.alert.warning {
+    border-color:#f5aa0a;
+    background-color:#fdf1d8
+}
+
+.alert.warning:not(.no-icon):before {
+    content:"";
+    color:#f5aa0a
+}
+
+.alert.danger {
+    border-color:#f5311d;
+    background-color:#feecea
+}
+
+.alert.danger:not(.no-icon):before {
+    content:"";
+    color:#f5311d
+}
+
+</style>
+
+<div class="alert {{ range .Params }}{{ . }} {{ end }}">
+  <p>{{ .Inner | markdownify }}</p>
+</div>

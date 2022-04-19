@@ -22,7 +22,13 @@ disableLanguages = ["en"] # disable language from here
 home = ["HTML", "RSS"]
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
 
 [sitemap]
 changefreq = "weekly"

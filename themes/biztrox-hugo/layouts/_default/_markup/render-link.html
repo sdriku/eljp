@@ -1,0 +1,15 @@
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>
+{{ .Text | safeHTML }}
+{{ if strings.HasPrefix .Destination "https://amzn.to" }}&nbsp;<i class="fab fa-amazon"></i>
+{{ else if strings.HasPrefix .Destination "https://github" }}&nbsp;<i class="fab fa-github"></i>
+{{ else if strings.HasPrefix .Destination "https://" }}&nbsp;<i class="fas fa-external-link-alt"></i>
+{{ else if strings.HasPrefix .Destination "http://" }}&nbsp;<i class="fas fa-external-link-alt"></i>
+{{ end }}
+</a>
+
+<!--
+    Starting with Hugo 0.60 and the *Goldmark* parser external **links** won't open in a **new window**. The `hrefTargetBlank` from *Blackfriday* is not supported in *Goldmark*.
+The render `render-link.html` shortcode will fix the problem. Put the file in `\layouts\_default\_markup` and alls urls starting with http(s) will get the `target="_blank" rel="noopener noreferrer"` properties.
+
+Additionally this shortcode adds icons to *amazon* and *github* links to provide an example how to enhance the functionality of the shortcode even more.
+-->

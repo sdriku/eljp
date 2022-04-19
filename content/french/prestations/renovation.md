@@ -3,6 +3,7 @@ title: "Rénovation et Mise aux Normes"
 date: 2018-09-29T11:54:02+06:00
 mainsection: 'false'
 description : "Quand une installation électrique est trop ancienne, sa vétusté peut entraîner des cours-circuits, le risque d’incendie est donc réel. Chaque année, on déplore plus de 80 000 incendies d’origine électrique et des milliers d’accidents corporels !"
+summary: "A quel moment rénover? Voici plusieurs cas de figures à envisager"
 imagesm: images/service/renovation-w400.jpg
 imagemd: images/service/renovation-w800.jpg
 bg_image: images/background/page-title-w600.jpg
@@ -15,22 +16,25 @@ offDay: Friday
 type : prestations
 ---
 
-A quel moment rénover?
-Voici plusieurs cas de figures à envisager<!--more-->
+### A quel moment rénover?
 
-1. Dans le cadre d’une rénovation lourde quand l’installation électrique doit être entièrement remplacée,
+<br>
 
-2. Dans le cadre d’une extension à raccorder à un bâtiment existant,
+Voici plusieurs cas de figures à envisager:
 
-3. Dans le cadre de travaux de raccordements de nouveaux équipements électriques,
+- Dans le cadre d’une rénovation lourde quand l’installation électrique doit être entièrement remplacée,
 
-4. Dans le cadre d’un réaménagement de pièces existantes
+- Dans le cadre d’une extension à raccorder à un bâtiment existant,
 
+- Dans le cadre de travaux de raccordements de nouveaux équipements électriques,
 
+- Dans le cadre d’un réaménagement de pièces existantes.
+
+<br>
 
 Quand une installation électrique est trop ancienne, sa vétusté peut entraîner des cours-circuits, le risque d’incendie est donc réel. Chaque année, on déplore plus de 80 000 incendies d’origine électrique et des milliers d’accidents corporels !
 
-> Si vous achetez une maison de plus de 15 ans, le vendeur doit obligatoirement vous fournir un diagnostic électrique qui répertorie tous les défauts de l’installation. Si la remise aux normes de l’électricité n’a rien d’obligatoire, elle est quand même vivement conseillée bien évidemment.
+- Si vous achetez une maison de plus de 15 ans, le vendeur doit obligatoirement vous fournir un diagnostic électrique qui répertorie tous les défauts de l’installation. Si la remise aux normes de l’électricité n’a rien d’obligatoire, elle est quand même vivement conseillée bien évidemment.
 
-> Le remplacement complet de l’éclairage nécessite la dépose de l’ancienne installation. Ceci occasionne souvent des travaux connexes de peintures notamment, voire même de plâtrerie si la nouvelle installation est réalisée dans les murs pour un rendu invisible.
+- Le remplacement complet de l’éclairage nécessite la dépose de l’ancienne installation. Ceci occasionne souvent des travaux connexes de peintures notamment, voire même de plâtrerie si la nouvelle installation est réalisée dans les murs pour un rendu invisible.
 

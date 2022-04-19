@@ -23,10 +23,14 @@ body {
 	justify-content: center;
 }
 
-ol,
-ul {
+ol {
 	list-style-type: none;
-	margin: 0px;
+	margin: 10px;
+}
+
+ul {
+	list-style-type: disc;
+	margin: 10px;
 }
 
 img {

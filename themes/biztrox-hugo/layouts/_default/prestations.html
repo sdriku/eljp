@@ -7,7 +7,7 @@
     </div>
     <div class="card-body p-0">
       {{with .Params.Icon}}<i class="square-icon translateY-33 rounded {{ . }}"></i>{{end}}
-      <p class="card-text mx-2 mt-2 mb-0 font-weight-light">{{ .Summary }}</p>
+      <p class="card-text mx-2 mt-2 mb-0 font-weight-light text-left">{{ .Summary }}</p>
     </div>
     <div class="card-footer border-0 p-0">
       <a href="{{ .Permalink }}" class="btn btn-secondary translateY-25">{{ i18n "read_more" }}</a>

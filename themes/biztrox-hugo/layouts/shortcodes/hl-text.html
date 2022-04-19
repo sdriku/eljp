@@ -1,0 +1,31 @@
+<style>
+    .highlight-text {
+    display: inline;
+    padding: 3px;
+    }
+
+    .highlight-text.red {
+        background-color:red;
+    }
+    .highlight-text.green {
+        background-color:green;
+    }
+    .highlight-text.blue {
+        background-color:blue;
+    }
+    .highlight-text.purple {
+        background-color:purple;
+    }
+    .highlight-text.orange {
+        background-color:orange;
+    }
+    .highlight-text.yellow {
+        background-color:yellow;
+    }
+    .highlight-text.cyan {
+        background-color:cyan;
+    }
+</style>
+
+<span class="highlight-text {{ .Get 0 }}">{{ .Inner }}</span>
+

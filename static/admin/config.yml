@@ -7,7 +7,7 @@ display_url: https://electricite-eljp.com/
 logo_url: https://electricite-eljp.com/images/eljp-logo-desktop.png
 locale: 'fr'
 
-media_folder: themes/hugo-hero-theme-master/assets/img
+media_folder: assets/img
 public_folder: /img
 collections:
   - name: 'sectionprestations'
@@ -33,6 +33,7 @@ collections:
     fields:
       - { label: 'Intitulé sous-section et Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est lintitulé de votre prestation sur le site + le titre SEO de votre page' }
       - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparaitra depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+      - { label: 'Résumé', name: 'summary', widget: 'string', hint: 'Ceci est le Résumé de votre prestation qui apparait depuis la page générale Prestations + soyez bref 2 à 3 lignes suffisent' }
       - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + parlez de votre prestation en détail + ajoutez une ou deux photos si nécessaire + soyez concis mais percutant + pensez à introduire vos mots clés' }
 
   - name: "autresections"
