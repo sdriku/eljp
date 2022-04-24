@@ -633,8 +633,6 @@ button {
 			margin-bottom: 5px;
 			&::before{
 				position: absolute;
-				font-family: $icon-font;
-				content: "\e65d";
 				color: $primary-color;
 				height: 15px;
 				width: 15px;

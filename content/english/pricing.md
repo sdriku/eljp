@@ -9,7 +9,7 @@ layout: "pricing"
 pricing_table : 
 # pricing table loop
 - title : Starter
-  icon : ti-gift # themify icon pack : https://themify.me/themify-icons
+  icon : 
   value : $25
   unit : month
   link : '#'
@@ -20,7 +20,7 @@ pricing_table :
     
 # pricing table loop
 - title : Premium
-  icon : ti-key # themify icon pack : https://themify.me/themify-icons
+  icon : 
   value : $129
   unit : month
   link : '#'
@@ -34,7 +34,7 @@ pricing_table :
     
 # pricing table loop
 - title : Platinum
-  icon : ti-medall # themify icon pack : https://themify.me/themify-icons
+  icon : 
   value : $229
   unit : month
   link : '#'

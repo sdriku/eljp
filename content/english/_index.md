@@ -9,7 +9,7 @@ slider:
     subtitle : We are here to
     title : Planning Business
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    pagination_icon : ti-comments # themify icon pack : https://themify.me/themify-icons
+    pagination_icon : 
     pagination_name : Consultation
     button:
       enable : true
@@ -22,7 +22,7 @@ slider:
     subtitle : Get your
     title : Business Consultant
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    pagination_icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
+    pagination_icon : 
     pagination_name : Marketing
     button:
       enable : true
@@ -35,7 +35,7 @@ slider:
     subtitle : Start your
     title : Future Plan
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    pagination_icon : ti-money # themify icon pack : https://themify.me/themify-icons
+    pagination_icon : 
     pagination_name : Finance
     button:
       enable : true
@@ -48,7 +48,7 @@ slider:
     subtitle : We are always
     title : Be Inspired By Best
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
+    pagination_icon : 
     pagination_name : Human Resources
     button:
       enable : true
@@ -90,15 +90,15 @@ skill:
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum. sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.
   # funfacts
   funfacts :
-  - icon : ti-server # themify icon pack : https://themify.me/themify-icons
+  - icon : 
     title : Projects Done
     count : 230
     
-  - icon : ti-face-smile # themify icon pack : https://themify.me/themify-icons
+  - icon : t
     title : Satisfied Clients
     count : 789
     
-  - icon : ti-thumb-up # themify icon pack : https://themify.me/themify-icons
+  - icon : 
     title : Cup Of Coffee
     count : 580
 
