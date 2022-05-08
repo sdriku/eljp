@@ -1,13 +1,13 @@
 ---
 title: "Service"
 date: 2018-07-12T18:19:33+06:00
-bg_image: images/background/page-title.jpg
+bg_image: 'assets/img/page-title-w1200.jpg'
 description : "This is meta description"
 
 ################## Satisfied clients ###############
 satisfied_clients:
   enable: true
-  bg_image: images/background/clients-bg.jpg
+  bg_image: 'assets/img/page-title-w1200.jpg'
   subtitle: Our Some
   title: Satisfied Clients
   content: Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis. natus error sit voluptem accusantium doloremqu laudantium totam remaperiam eaque ipsa quae

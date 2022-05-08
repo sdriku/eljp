@@ -1,0 +1,31 @@
+############################# Logo et Pied de page ############################
+logo:
+  mobile: "assets/img/eljp-logo-mobile.png"
+  desktop: "assets/img/eljp-logo-desktop.png"
+
+logo_footer:
+  mobile: "assets/img/eljp-logo-mobile-footer.png"
+  desktop: "assets/img/eljp-logo-desktop-footer.png"
+
+footer_content: "ELJP est une micro-entreprise artisanale dont le point fort se caractérise par ma longue expérience en électricité de bâtiment. Ces 30 années passées au service de mes clients sont la garantie d'un travail bien fait."
+copyright: "Copyright &copy; 2022 website created by [codelice.com](https://codelice.com)"
+
+
+############################ Contact information ############################
+contact_info:
+  contact:
+    - name: "mobile"
+      icon: "assets/img/icons8-phone.png"
+      content: "06 36 12 23 73"
+      
+    - name: "mail"
+      icon: "assets/img/icons8-email.png"
+      content: "elec.juste.prix@gmail.com"
+      
+    - name: "location"
+      icon: "assets/img/icons8-location.png"
+      content: "13 Le Vieux Terrier <br> 27930 Guichainville"
+
+############################ Bannière Haut de Page ############################
+mobile: "06 36 12 23 73"
+email: "elec.juste.prix@gmail.com"

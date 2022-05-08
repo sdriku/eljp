@@ -3,7 +3,7 @@ title: "Business Consulting"
 date: 2018-09-25T15:51:35+06:00
 description : "This is meta description"
 image: images/service/service-1.jpg
-bg_image: images/background/page-title.jpg
+bg_image: 'assets/img/page-title-w1200.jpg'
 icon: 
 brochure: '#'
 regularDay: Sun-Tues

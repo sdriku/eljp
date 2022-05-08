@@ -3,7 +3,7 @@ title: "Market Strategy"
 date: 2018-09-29T11:54:02+06:00
 description : "This is meta description"
 image: images/service/service-5.jpg
-bg_image: images/background/page-title.jpg
+bg_image: 'assets/img/page-title-w1200.jpg'
 icon: ti-server
 brochure: '#'
 regularDay: Sun-Tues

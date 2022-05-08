@@ -4,11 +4,11 @@ backend:
 
 site_url: https://electricite-eljp.com/
 display_url: https://electricite-eljp.com/
-logo_url: https://electricite-eljp.com/images/eljp-logo-desktop.png
+logo_url: https://electricite-eljp.com/assets/img/eljp-logo-desktop.png
 locale: 'fr'
 
-media_folder: assets/img
-public_folder: /img
+media_folder: static/assets/img
+public_folder: assets/img
 collections:
   - name: 'sectionprestations'
     label: 'Section Prestations'
@@ -20,7 +20,8 @@ collections:
     filter: {field: "mainsection", value: "true"}
     fields:
       - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
-      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+      - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors d´une recherche + pensez à y introduire vos mots-clés + n´apparaitra nulle part sur votre site' }
+      - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page principale Prestations' }
       - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + brêve introduction qui apparait juste au dessus de la liste de vos prestations' }
   - name: 'mesprestations'
     label: 'Mes Prestations'
@@ -33,6 +34,8 @@ collections:
     fields:
       - { label: 'Intitulé sous-section et Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est lintitulé de votre prestation sur le site + le titre SEO de votre page' }
       - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparaitra depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+      - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page spécifique à chaque Prestation' }
+      - { label: 'Image de votre Prestation', name: 'image', widget: 'image', hint: 'Ceci est l´image associée spécifiquement à une Prestation ' }
       - { label: 'Résumé', name: 'summary', widget: 'string', hint: 'Ceci est le Résumé de votre prestation qui apparait depuis la page générale Prestations + soyez bref 2 à 3 lignes suffisent' }
       - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + parlez de votre prestation en détail + ajoutez une ou deux photos si nécessaire + soyez concis mais percutant + pensez à introduire vos mots clés' }
 
@@ -48,7 +51,17 @@ collections:
         fields:
           - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
           - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+          - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page Qui suis-je' }
           - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + ajoutez quelques mots clés si possible' }
+          - label: 'Chef Entreprise'
+            name: 'ceo'
+            widget: 'object'
+            collapsed: true
+            fields:
+              - { label: 'Activation section CEO', name: 'enable', widget: 'boolean', hint: 'Laisser true si vous souhaitez activer cette section de présentation du chef d´entreprise. Pour désactiver, séléctionnez false'}
+              - { label: 'Image Chef d´Entreprise', name: 'image', widget: 'image', hint: 'Ajoutez ici une photo de vous ou de votre équipe'}
+              - { label: 'Titre', name: 'title', widget: 'markdown', hint: 'Titre de la page + ajoutez quelques mots clés si possible' }
+              - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + ajoutez quelques mots clés si possible' }
       - name: 'contact'
         label: 'Contact'
         description: 'Modifiez ici votre page Contact'
@@ -58,6 +71,7 @@ collections:
         fields:
           - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
           - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+          - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page Contact' }
       - name: 'mentionslegales'
         label: 'Mentions légales'
         description: 'Modifiez ici vos Mentions Légales'
@@ -67,4 +81,44 @@ collections:
         fields:
           - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
           - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
+          - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page Mentions Légales' }
           - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + listez ici vos Mentions Légales' }
+      - name: 'logo-contact'
+        label: 'Données Générales du site'
+        description: 'Modifiez ici votre logo, l'en-tête, le pied de page, certains éléments de style.'
+        file: 'data/logocontact.yml'
+        editor:
+          preview: true
+        fields:
+          - { label: 'Numéro Tel haut de page', name: 'mobile', widget: 'string', required: false,  hint: 'Ceci est le num de tel apparaissant en haut de page. Champ facultatif, si vous n'ajoutez ni mobile ni email, la bannière en haut de page disparaitra.'}
+          - { label: 'Adresse email haut de page', name: 'email', widget: 'string', required: false,  hint: 'Ceci est l´adresse email apparaissant en haut de page. Champ facultatif, si vous n'ajoutez ni mobile ni email, la bannière en haut de page disparaitra.'}
+          - label: 'Logo Haut de page'
+            name: 'logo'
+            widget: 'object'
+            collapsed: true
+            fields:
+              - { label: 'Petit Logo pour mobile', name: 'mobile', widget: 'image', hint: 'Ajouter le logo principal qui aparaitra en haut de page, pour mobiles, largeur 200 de préférence'}
+              - { label: 'Grand logo pour ordinateur', name: 'desktop', widget: 'image', hint: 'Ajouter le logo principal qui aparaitra en haut de page, pour grans écrans, largeur 400 de préférence'}
+          - label: 'Logo Pied de page'
+            name: 'logo_footer'
+            widget: 'object'
+            collapsed: true
+            fields:
+              - { label: 'Petit Logo pour mobile', name: 'mobile', widget: 'image', hint: 'Ajouter le logo principal qui aparaitra en pied de page, pour mobiles, largeur 200 de préférence'}
+              - { label: 'Grand logo pour ordinateur', name: 'desktop', widget: 'image', hint: 'Ajouter le logo principal qui aparaitra en pied de page, pour grans écrans, largeur 400 de préférence'}
+          - { label: 'Texte pied de page', name: 'footer_content', widget: 'string',  hint: 'Ceci est le bloc de texte qui apparait en pied de page'}
+          - { label: 'Copyright pied de page', name: 'copyright', widget: 'string', required: false,  hint: 'Ceci est la phrase apparaissant tout en bas de page, habituellement dédiée au copyright. Ce champ est optionnel, dans le case où vous ne souhaitez rien ajouter.'}
+          - label: 'Elements de votre page Contact'
+            name: 'contact_info'
+            widget: 'object'
+            collapsed: true
+            fields:
+              - label: 'Contact'
+                name: 'contact'
+                widget: 'list'
+                allow_add: false
+                summary: '{{fields.name}} - {{fields.icon}} - {{field.content}}'
+                fields:
+                  - { label: 'Moyen de Contact', name: 'name', widget: 'string', hint: 'Nommer ce moyen de contact: téléphone, email, adresse'}
+                  - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Find an icon that comes with your contact'}
+                  - { label: 'Text', name: 'content', widget: 'string', hint: 'Indiquez ici votre contact (numéro de télephone, adresse email etc)'}

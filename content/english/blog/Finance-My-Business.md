@@ -1,6 +1,6 @@
 ---
 title: "Finance My Business"
-bg_image: images/background/page-title.jpg
+bg_image: 'assets/img/page-title-w1200.jpg'
 date: 2018-09-24T11:10:07+06:00
 description : "This is meta description"
 author: Mark Dinn

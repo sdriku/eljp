@@ -1,6 +1,53 @@
 {{ define "main" }}
 
-{{ partial "page-header.html" . }}
+<!-- page-header partial deleted so background image can be resized auto -->
+{{ "<!-- page title -->" | safeHTML }}
+
+{{ $img := .Params.bg_image }}
+{{ $imagePath := printf "/%s" $img }}
+{{ $res := resources.Get $imagePath }}
+{{ $bg550 := $res.Resize "550x" }}
+{{ $bg750 := $res.Resize "750x" }}
+{{ $bg950 := $res.Resize "950x" }}
+{{ $bg1700 := $res.Resize "1700x" }}
+
+<style>
+  @media (max-width: 700px) {
+  .bg-title {
+  background-image: url('{{ $bg550.RelPermalink }}');
+    }
+  }
+  @media (min-width: 701px) {
+  .bg-title {
+  background-image: url('{{ $bg750.RelPermalink }}');
+    }
+  }
+    @media (min-width: 901px) {
+  .bg-title {
+  background-image: url('{{ $bg950.RelPermalink }}')
+    }
+  }
+  @media (min-width: 1301px) {
+  .bg-title {
+  background-image: url('{{ $bg1700.RelPermalink }}')
+    }
+  }
+</style>
+
+<section class="bg-title page-title overlay">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="text-white font-weight-bold">{{ .Title }}</h2>
+				<ol class="breadcrumb">
+					<li><a href="{{ site.BaseURL }}">{{ site.Params.home }}</a></li>
+					<li>{{ .Title }}</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- /page title -->" | safeHTML }}
 
 {{ "<!-- contact -->" | safeHTML }}
 <section class="section">
@@ -10,14 +57,18 @@
 				<h2 class="section-title">{{ i18n "contact_us" }}</h2>
 				<ul class="pl-0">
 					{{ "<!-- contact items -->" | safeHTML }}
-					{{ range .Params.contact_info }}
+					{{ $data := index .Site.Data }}
+					{{- with $data.logocontact.contact_info }}
+					{{ range .contact }}
 					<li class="d-flex mb-30">
-						<i class="round-icon mr-4"><img height="80" width="80" src="{{ .icon | relURL }}" alt="{{ .alt }}"/></i>
+						<i class="mr-4"><img height="80" width="80" src="{{ .icon | relURL }}" alt="{{ .name | markdownify }}"/></i>
 						<div class="align-self-center font-primary">
 							<div class="text-dark">{{ .content | markdownify }}</div>
 						</div>
 					</li>
 					{{ end }}
+					{{ end }}
+
 				</ul>
 			</div>
 			{{ "<!-- form -->" | safeHTML }}

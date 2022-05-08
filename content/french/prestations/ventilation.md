@@ -4,9 +4,8 @@ date: 2018-09-29T11:54:02+06:00
 mainsection: 'false'
 description : "ELJP vous propose l'installation de VMC simple ou double flux."
 summary: "Nous vous proposons l'installation de VMC simple ou double flux"
-imagesm: images/service/ventilation-w400.jpg
-imagemd: images/service/ventilation-w800.jpg
-bg_image: images/background/page-title-w600.jpg
+image: 'assets/img/ventilation-w1200.jpg'
+bg_image: 'assets/img/page-title-w1200.jpg'
 brochure: '#'
 regularDay: Sun-Tues
 regularTime: 08.00am - 06.00pm
@@ -34,7 +33,7 @@ La ventilation mécanique contrôlée (VMC) est un équipement essentiel puisqu�
 
 <br>
 
-{{< img src="/img/vmc.png" alt="Illustration circuit VMC" >}}
+{{< img src="vmc.png" alt="Illustration circuit VMC" >}}
 
 <br>
 

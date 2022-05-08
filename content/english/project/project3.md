@@ -2,7 +2,7 @@
 title: "Finance Consultancy"
 date: 2018-09-24T14:48:03+06:00
 description : "This is meta description"
-bg_image: images/background/page-title.jpg
+bg_image: 'assets/img/page-title-w1200.jpg'
 image : images/project/project-3.jpg
 live_demo : "#"
 case_study : "#"

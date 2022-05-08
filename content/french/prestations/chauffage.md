@@ -4,9 +4,8 @@ date: 2018-09-29T11:51:17+06:00
 mainsection: 'false'
 description : "Quel radiateur électrique économique choisir ?"
 summary: "Loin des anciens convecteurs énergivores et qui asséchaient l’air, le radiateur électrique sait aujourd’hui se faire économique"
-imagesm: images/service/chauffage-w400.jpg
-imagemd: images/service/chauffage-w800.jpg
-bg_image: images/background/page-title-w600.jpg
+image: 'assets/img/chauffage-w1200.jpg'
+bg_image: 'assets/img/page-title-w1200.jpg'
 brochure: '#'
 regularDay: Sun-Tues
 regularTime: 08.00am - 06.00pm

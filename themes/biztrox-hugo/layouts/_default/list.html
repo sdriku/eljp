@@ -1,6 +1,55 @@
 {{ define "main" }}
 
-{{ partial "page-header.html" . }}
+<!-- page-header partial deleted so background image can be resized auto -->
+{{ "<!-- page title -->" | safeHTML }}
+
+{{ with .Params.bg_image }}
+{{ $img := .Params.bg_image }}
+{{ $imagePath := printf "/%s" $img }}
+{{ $res := resources.Get $imagePath }}
+{{ $bg550 := $res.Resize "550x" }}
+{{ $bg750 := $res.Resize "750x" }}
+{{ $bg950 := $res.Resize "950x" }}
+{{ $bg1190 := $res.Resize "1190x" }}
+
+<style>
+  @media (max-width: 700px) {
+  .bg-title {
+  background-image: url('{{ $bg550.RelPermalink }}');
+    }
+  }
+  @media (min-width: 701px) {
+  .bg-title {
+  background-image: url('{{ $bg750.RelPermalink }}');
+    }
+  }
+    @media (min-width: 901px) {
+  .bg-title {
+  background-image: url('{{ $bg950.RelPermalink }}')
+    }
+  }
+  @media (min-width: 1301px) {
+  .bg-title {
+  background-image: url('{{ $bg1190.RelPermalink }}')
+    }
+  }
+</style>
+
+<section class="bg-title page-title overlay">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="text-white font-weight-bold">{{ .Title }}</h2>
+				<ol class="breadcrumb">
+					<li><a href="{{ site.BaseURL }}">{{ site.Params.home }}</a></li>
+					<li>{{ .Title }}</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ "<!-- /page title -->" | safeHTML }}
 
 {{ "<!-- blog -->" | safeHTML }}
 <section>

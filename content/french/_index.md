@@ -4,7 +4,7 @@ slider:
   enable : true
   slider_item:
   # slider item loop
-  - bg_image : "images/service/installation-w1200.jpg"
+  - bg_image : "assets/img/installation-w1200.jpg"
     animation_from : left
     subtitle : 
     title : Installation
@@ -13,10 +13,10 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/installation"
+      link : "prestations/installation"
       
   # slider item loop
-  - bg_image : "images/service/renovation-w1200.jpg"
+  - bg_image : "assets/img/renovation-w1200.jpg"
     animation_from : up
     subtitle : 
     title : Rénovation
@@ -25,10 +25,10 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/renovation"
+      link : "prestations/renovation"
       
   # slider item loop
-  - bg_image : "images/service/chauffage-w1200.jpg"
+  - bg_image : "assets/img/chauffage-w1200.jpg"
     animation_from : down
     subtitle : 
     title : Chauffage
@@ -37,10 +37,10 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/chauffage"
+      link : "prestations/chauffage"
       
   # slider item loop
-  - bg_image : "images/service/alarme-w1200.jpg"
+  - bg_image : "assets/img/alarme-w1200.jpg"
     animation_from : right
     subtitle : 
     title : Alarme
@@ -49,10 +49,10 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/alarme"
+      link : "prestations/alarme"
 
   # slider item loop
-  - bg_image : "images/service/domotique-w1200.jpg"
+  - bg_image : "assets/img/domotique-w1200.jpg"
     animation_from : right
     subtitle : 
     title : Domotique
@@ -61,10 +61,10 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/domotique"
+      link : "prestations/domotique"
 
   # slider item loop
-  - bg_image : "images/service/depannage-w1200.jpg"
+  - bg_image : "assets/img/depannage-w1200.jpg"
     animation_from : right
     subtitle :
     title : Dépannage
@@ -73,10 +73,10 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/depannage"
+      link : "prestations/depannage"
 
   # slider item loop
-  - bg_image : "images/service/ventilation-w1200.jpg"
+  - bg_image : "assets/img/ventilation-w1200.jpg"
     animation_from : right
     subtitle :
     title : Ventilation VMC
@@ -85,7 +85,7 @@ slider:
     button:
       enable : true
       label: En savoir plus
-      link : "service/ventilation"
+      link : "prestations/ventilation"
 
     
 ---

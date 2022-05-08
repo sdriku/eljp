@@ -6,11 +6,14 @@
 				<div class="col-md-4">
 					<div class="mb-5 mb-md-0 text-center text-md-left">
 						<!-- logo -->
+						{{ $data := index .Site.Data }}
+						{{- with $data.logocontact.logo_footer }}
 						<a class="mb-30 d-inline-block" href="{{ site.BaseURL | relLangURL }}">
-							<picture><source width="180" height="44" srcset="/images/eljp-logo-desktop-footer.png" media="(min-width: 700px)"><img class="img-fluid" width="180" height="44" srcset="/images/eljp-logo-mobile-footer.png" alt="{{ site.Title }}"></picture>
+							<picture><source width="180" height="44" srcset="{{ $data.logocontact.logo_footer.desktop | absURL }}" media="(min-width: 700px)"><img class="img-fluid" width="180" height="44" srcset="{{ $data.logocontact.logo_footer.mobile | absURL }}" alt="{{ site.Title }}"></picture>
 						</a>
-						{{ with site.Params.footer_content }}<p class="text-white mb-30">{{ . | markdownify }}</p>{{ end }}
+						{{ with $data.logocontact.footer_content }}<p class="text-white mb-30">{{ . | markdownify }}</p>{{ end }}
 					</div>
+					{{ end }}
 				</div>
 				<!-- footer links -->
 				<div class="col-lg-2 col-md-4 col-6">
@@ -39,9 +42,12 @@
 	<div class="pt-4 pb-3 position-relative">
 		<div class="container">
 			<div class="row">
+				{{ $data := index .Site.Data }}
+				{{- with $data.logocontact.copyright }}
 				<div class="col-lg-6 col-md-5">
-					<p class="text-white text-center text-md-left">{{ site.Params.copyright | markdownify }}</p>
+					<p class="text-white text-center text-md-left">{{ . | markdownify }}</p>
 				</div>
+				{{ end }}
 				<div class="col-lg-6 col-md-7">
 					<ul class="list-inline text-center text-md-right">
 						{{ range site.Menus.footer }}
@@ -58,7 +64,7 @@
 		</div>
 		<!-- back to top -->
 		<button class="back-to-top" aria-label="retour en haut de page">
-			<i><img width="50" height="50" src="/images/icons8-arrow-up.png" alt="retour en haut de page"/></i>
+			<i><img width="50" height="50" src="/assets/img/icons8-arrow-up.png" alt="retour en haut de page"/></i>
 		</button>
 	</div>
 </footer>

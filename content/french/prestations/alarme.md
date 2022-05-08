@@ -4,9 +4,8 @@ date: 2018-09-29T11:51:17+06:00
 mainsection: 'false'
 description : "Selon l'ONDRP (observatoire national de la délinquance et des réponses pénales), un cambriolage est commis en France toutes les 90 secondes. Face à ce constat, de plus en plus de Français décident d'installer un système d'alarme dans leur maison pour se protéger et être plus rassurés."
 summary: "ELJP  pose des alarmes DAITEM (marque francaise) mais à la demande du client il est possible d'opter pour d'autres marques"
-imagesm: images/service/alarme-w400.jpg
-imagemd: images/service/alarme-w800.jpg
-bg_image: images/background/page-title-w600.jpg
+image: 'assets/img/alarme-w1200.jpg'
+bg_image: 'assets/img/page-title-w1200.jpg'
 brochure: '#'
 regularDay: Sun-Tues
 regularTime: 08.00am - 06.00pm
@@ -62,7 +61,7 @@ normes applicables, incluant une assistance pour choisir des produits sûrs et d
 
 <br>
 
-{{< img src="/img/alarme1.jpg" alt="Photo d'une alarme Daitem" >}}
+{{< img src="alarme1.jpg" alt="Photo d'une alarme Daitem" >}}
 
 ### Pourquoi choisir nos alarmes résidentielles Daitem ?
 
@@ -92,7 +91,7 @@ s’il est équipé de certains accessoires et dispositifs, il peut aussi préve
 
 <br>
 
-{{< img src="/img/alarme2.jpg" alt="Photo d'une alarme Daitem" >}}
+{{< img src="alarme2.jpg" alt="Photo d'une alarme Daitem" >}}
 
 ### Quelle alarme de la gamme Daitem choisir ?
 

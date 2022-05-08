@@ -1,0 +1,18 @@
+############################# Logo ############################
+logo:
+  mobile: "assets/img/aogw-logo-200w.png"
+  desktop: "assets/img/aogw-logo-400w.png"
+
+############################ Contact information ############################
+contact_info:
+- name: "mobile"
+  icon: "assets/img/icons8-phone.png"
+  content: "06 36 12 23 73"
+  
+- name: "mail"
+  icon: "assets/img/icons8-email.png"
+  content: "elec.juste.prix@gmail.com"
+  
+- name: "location"
+  icon: "assets/img/icons8-location.png"
+  content: "13 Le Vieux Terrier <br> 27930 Guichainville"

@@ -3,7 +3,7 @@ title: "Valuable Idea"
 date: 2018-09-29T11:51:17+06:00
 description : "This is meta description"
 image: images/service/service-6.jpg
-bg_image: images/background/page-title.jpg
+bg_image: 'assets/img/page-title-w1200.jpg'
 icon: ti-thought
 brochure: '#'
 regularDay: Sun-Tues

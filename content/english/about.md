@@ -1,7 +1,7 @@
 ---
 title: "About Us"
 date: 2018-07-12T18:19:33+06:00
-bg_image: images/background/page-title.jpg
+bg_image: "assets/img/chauffage-banner-3.jpg"
 description : "This is meta description"
 layout: "about"
 draft: false
@@ -17,7 +17,7 @@ philosophy:
 ###################################### ceo ########################################
 ceo:
   enable : true
-  bg_image : images/about/ceo.jpg
+  bg_image : "assets/img/chauffage-banner-3.jpg"
   title : We are efficient to <br> make your business rise
   content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex commodo consequat. duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
   signature : images/about/ceo-signature.png
@@ -45,7 +45,7 @@ mission:
 ###################################### funfacts ####################################
 funfacts:
   enable : true
-  bg_image : images/background/cta.jpg
+  bg_image : "assets/img/chauffage-banner-3.jpg"
   counter:
   - title : Projects Done
     icon : 

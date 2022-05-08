@@ -1,6 +1,6 @@
 ---
 title: "Money and Money"
-bg_image: images/background/page-title.jpg
+bg_image: 'assets/img/page-title-w1200.jpg'
 date: 2018-09-24T11:10:46+06:00
 author: John Doe
 description : "This is meta description"

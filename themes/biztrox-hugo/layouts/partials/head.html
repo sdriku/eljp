@@ -33,7 +33,7 @@
 <link rel="stylesheet" href="plugins/slick/slick-theme.css">
 
 <!-- Main Stylesheet -->
-{{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+{{ $styles := resources.Get "assets/scss/style.scss" | toCSS | minify }}
 <link rel="stylesheet" as="style" href="{{ $styles.Permalink }}" media="screen" >
 
   <!-- multilingual SEO optimizations -->
@@ -58,7 +58,7 @@
 {{ end }}
 
 <!-- Main Script -->
-{{ $script := resources.Get "js/script.js" | minify}}
+{{ $script := resources.Get "assets/js/script.js" | minify}}
 <script defer src="{{ $script.Permalink }}"></script>
 
 <meta name="google-site-verification" content="ElYNIIz4NA5Qx10DhGnU-1yvWgjOJ0B2BmFk1vYfatw" />

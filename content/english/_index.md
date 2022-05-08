@@ -4,7 +4,7 @@ slider:
   enable : true
   slider_item:
   # slider item loop
-  - bg_image : images/banner/banner-1.jpg
+  - bg_image : assets/img/installation-banner-1.jpg
     animation_from : left
     subtitle : We are here to
     title : Planning Business
@@ -17,7 +17,7 @@ slider:
       link : "about"
       
   # slider item loop
-  - bg_image : images/banner/banner-2.jpg
+  - bg_image : assets/img/renovation-banner-2.jpg
     animation_from : up
     subtitle : Get your
     title : Business Consultant
@@ -30,7 +30,7 @@ slider:
       link : "about"
       
   # slider item loop
-  - bg_image : images/banner/banner-3.jpg
+  - bg_image : assets/img/chauffage-banner-3.jpg
     animation_from : down
     subtitle : Start your
     title : Future Plan
@@ -43,7 +43,7 @@ slider:
       link : "about"
       
   # slider item loop
-  - bg_image : images/banner/banner-4.jpg
+  - bg_image : assets/img/alarme-banner-4.jpg
     animation_from : right
     subtitle : We are always
     title : Be Inspired By Best
@@ -66,7 +66,7 @@ service:
 ######################################## About #########################################
 about:
   enable : true
-  bg_image : "images/background/about-bg.jpg"
+  bg_image : "assets/img/chauffage-banner-3.jpg"
   title : "Who We Are?"
   content : "Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum."
   # bullet point
@@ -145,7 +145,7 @@ mission:
 promo_video:
   enable : true
   title : "We Are Alawys <br> Comited"
-  bg_image : "images/background/promo-video.jpg"
+  bg_image : "assets/img/chauffage-banner-3.jpg"
   video_URL : "https://www.youtube.com/watch?v=jrkvirglgaQ"
   video_title : "Lorem ipsum dolor <br> sit amet con."
 
@@ -171,7 +171,7 @@ testimonial:
 ##################################### call to action #################################
 call_to_action:
   enable : true
-  bg_image : "images/background/cta.jpg"
+  bg_image : "assets/img/chauffage-banner-3.jpg"
   title : "Biztrox give the smart solution for your business"
   button:
     enable : true

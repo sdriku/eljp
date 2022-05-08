@@ -4,9 +4,8 @@ date: 2018-09-29T11:54:02+06:00
 mainsection: 'false'
 description : "Quand une installation électrique est trop ancienne, sa vétusté peut entraîner des cours-circuits, le risque d’incendie est donc réel. Chaque année, on déplore plus de 80 000 incendies d’origine électrique et des milliers d’accidents corporels !"
 summary: "A quel moment rénover? Voici plusieurs cas de figures à envisager"
-imagesm: images/service/renovation-w400.jpg
-imagemd: images/service/renovation-w800.jpg
-bg_image: images/background/page-title-w600.jpg
+image: 'assets/img/renovation-w1200.jpg'
+bg_image: 'assets/img/page-title-w1200.jpg'
 brochure: '#'
 regularDay: Sun-Tues
 regularTime: 08.00am - 06.00pm

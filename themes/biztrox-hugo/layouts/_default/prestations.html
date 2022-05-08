@@ -3,7 +3,31 @@
   <div class="card text-center h-100">
     <h4 class="card-title pt-3">{{ .Title }}</h4>
     <div class="card-img-wrapper">
-      <picture><source srcset="{{ .Params.imagemd | absURL }}" media="(min-width: 600px)"><img class="card-img-top rounded-0" src="{{ .Params.imagesm | absURL }}" alt="{{ .Title }}"></picture>
+      {{ $imagePath := printf "/%s" .Params.image }}
+			{{ $res := resources.Get $imagePath }}
+			{{- $ws := slice 450 800 1150 -}}
+			{{- $srcset := slice -}}
+			{{- range $ws -}}
+			{{/* to avoid creating an image that is larger than the source */}}
+			{{- if (le . $res.Width) -}}
+			{{- $w := printf "%dx" . -}}
+			{{- $url := ($res.Resize $w).RelPermalink | safeURL -}}
+			{{- $fmt := printf "%s %dw" $url . -}}
+			{{- $srcset = $srcset | append $fmt -}}
+			{{- end -}}
+			{{- end -}}
+			{{- $set := delimit $srcset "," -}}
+			{{ with $res }}
+      <figure>
+        <img class="card-img-top rounded-0"      
+        srcset="{{ $set }}"
+        sizes="(max-width: 650px) 90vw, (max-width: 900px) 50vw, (min-width: 901px) 33vw"
+        src="{{ $res.RelPermalink }}"
+        alt="{{ .Title }}"
+        width="100%"
+        height="auto"/>
+          </figure>
+        {{ end }}
     </div>
     <div class="card-body p-0">
       {{with .Params.Icon}}<i class="square-icon translateY-33 rounded {{ . }}"></i>{{end}}
