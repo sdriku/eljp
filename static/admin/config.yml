@@ -83,15 +83,19 @@ collections:
           - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
           - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page Mentions Légales' }
           - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + listez ici vos Mentions Légales' }
-      - name: 'logo-contact'
+      
+  - name: "data"
+    label: "Infos de base du site"
+    files:
+      - name: 'logocontact'
         label: 'Données Générales du site'
-        description: 'Modifiez ici votre logo, l'en-tête, le pied de page, certains éléments de style.'
+        description: 'Modifiez ici votre logo, l´en-tête, le pied de page, certains éléments de style.'
         file: 'data/logocontact.yml'
         editor:
           preview: true
         fields:
-          - { label: 'Numéro Tel haut de page', name: 'mobile', widget: 'string', required: false,  hint: 'Ceci est le num de tel apparaissant en haut de page. Champ facultatif, si vous n'ajoutez ni mobile ni email, la bannière en haut de page disparaitra.'}
-          - { label: 'Adresse email haut de page', name: 'email', widget: 'string', required: false,  hint: 'Ceci est l´adresse email apparaissant en haut de page. Champ facultatif, si vous n'ajoutez ni mobile ni email, la bannière en haut de page disparaitra.'}
+          - { label: 'Numéro Tel haut de page', name: 'mobile', widget: 'string', required: false,  hint: 'Ceci est le num de tel apparaissant en haut de page. Champ facultatif, si vous n´ajoutez ni mobile ni email, la bannière en haut de page disparaitra.'}
+          - { label: 'Adresse email haut de page', name: 'email', widget: 'string', required: false,  hint: 'Ceci est l´adresse email apparaissant en haut de page. Champ facultatif, si vous n´ajoutez ni mobile ni email, la bannière en haut de page disparaitra.'}
           - label: 'Logo Haut de page'
             name: 'logo'
             widget: 'object'
