@@ -139,12 +139,15 @@ collections:
             widget: 'object'
             collapsed: false
             fields:
-              - { label: 'Enable', name: 'enable', widget: 'select', options: ["true", "false"], hint: '**Ne pas toucher à ce champ, laisser ENABLE**' }
+              - { label: 'Enable', name: 'enable', widget: 'hidden', default: 'true' }
               - label: 'Slider Item'
                 name: 'slider_item'
                 widget: 'list'
-                summary: '{{fields.bg_image}} - {{fields.title}} - {{field.content}}'
+                summary: '{{fields.bg_image}} - {{fields.animation_from}} - {{fields.subtitle}} - {{fields.title}} - {{field.content}} - {{fields.pagination_name}}'
                 fiedls:
                   - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter un image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
+                  - { label: 'Animation', name: 'animation_from', widget: 'hidden', default: 'left' }
+                  - { label: 'Subtitle', name: 'subtitle', widget: 'hidden', default: '' }
                   - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur l´image de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
                   - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
+                  - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden', default: '' }
