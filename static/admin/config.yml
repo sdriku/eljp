@@ -13,6 +13,25 @@ collections:
   - name: "data"
     label: "Infos de base du site"
     files:
+      - name: 'accueil'
+        label: 'Page d´Accueil du site'
+        file: 'data/accueil.yml'
+        delete: false
+        editor:
+          preview: true
+        fields:
+          - label: 'Caroussel'
+            name: 'slider_item'
+            widget: 'list'
+            allow_add: false
+            summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.animation_from}} - {{fields.content}} - {{fields.pagination_name}} {{ fields.button}}'
+            fields:
+              - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur l´image de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
+              - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
+              - { label: 'Animation', name: 'animation_from', widget: 'hidden'}
+              - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
+              - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden'}
+              - { label: 'Bouton', name: 'button', widget: 'hidden'}
       - name: 'logocontact'
         label: 'Données Générales du site'
         file: 'data/logocontact.yml'
@@ -47,31 +66,12 @@ collections:
                 name: 'contact'
                 widget: 'list'
                 allow_add: false
-                summary: '{{fields.name}} - {{fields.icon}} - {{field.content}}'
+                summary: '{{fields.name}} - {{fields.icon}} - {{fields.content}}'
                 fields:
                   - { label: 'Moyen de Contact', name: 'name', widget: 'string', hint: 'Nommer ce moyen de contact: téléphone, email, adresse'}
                   - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Find an icon that comes with your contact'}
                   - { label: 'Text', name: 'content', widget: 'string', hint: 'Indiquez ici votre contact (numéro de télephone, adresse email etc)'}
           - { label: 'Image Principale version Mobile', name: 'bg_mobile', widget: 'image',  hint: 'Ceci est la photo principale de votre Page d´accueil en version Téléphone portable. Ne pas ajouter de photos trop large, garder une largeur de 600px.'}
-      - name: 'accueil'
-        label: 'Page d´Accueil du site'
-        file: 'data/accueil.yml'
-        delete: false
-        editor:
-          preview: true
-        fields:
-          - label: 'Caroussel'
-            name: 'slider_item'
-            widget: 'list'
-            allow_add: false
-            summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.animation_from}} - {{fields.content}} - {{fields.pagination_name}} {{ fields.button}}'
-            fiedls:
-              - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur l´image de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
-              - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
-              - { label: 'Animation', name: 'animation_from', widget: 'hidden'}
-              - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
-              - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden'}
-              - { label: 'Bouton', name: 'button', widget: 'hidden'}
 
   - name: 'sectionprestations'
     label: 'Section Prestations'
