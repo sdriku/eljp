@@ -69,7 +69,7 @@ collections:
               - label: 'Slider Item'
                 name: 'slider_item'
                 widget: 'list'
-                allow_add: false
+                allow_add: true
                 summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.animation_from}} - {{fields.subtitle}} - {{field.content}} - {{fields.pagination_name}} {{ fields.button}}'
                 fiedls:
                   - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur l´image de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
