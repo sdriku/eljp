@@ -6,6 +6,7 @@ site_url: https://electricite-eljp.com/
 display_url: https://electricite-eljp.com/
 logo_url: https://electricite-eljp.com/assets/img/eljp-logo-desktop.png
 locale: 'fr'
+
 media_folder: static/assets/img
 public_folder: assets/img
 collections:
@@ -52,7 +53,6 @@ collections:
                   - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Find an icon that comes with your contact'}
                   - { label: 'Text', name: 'content', widget: 'string', hint: 'Indiquez ici votre contact (numéro de télephone, adresse email etc)'}
           - { label: 'Image Principale version Mobile', name: 'bg_mobile', widget: 'image',  hint: 'Ceci est la photo principale de votre Page d´accueil en version Téléphone portable. Ne pas ajouter de photos trop large, garder une largeur de 600px.'}
-
       - name: 'homepage'
         label: 'Page d´Accueil du site'
         file: 'data/homepage.yml'
@@ -64,21 +64,14 @@ collections:
             name: 'slider_item'
             widget: 'list'
             allow_add: false
-            summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.animation_from}} - {{field.content}} - {{fields.pagination_name}} {{ fields.button}}'
+            summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.animation_from}} - {{fields.content}} - {{fields.pagination_name}} {{ fields.button}}'
             fiedls:
               - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur l´image de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
               - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
               - { label: 'Animation', name: 'animation_from', widget: 'hidden'}
               - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
               - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden'}
-              - label: 'Bouton'
-                name: 'button'
-                widget: 'list'
-                summary: '{{fields.enable}} - {{fields.label}} - {{fields.link}}'
-                fiedls:
-                  - { label: 'Enable', name: 'enable', widget: 'hidden'}
-                  - { label: 'Texte bouton', name: 'label', widget: 'hidden'}
-                  - { label: 'Enable', name: 'link', widget: 'hidden'}
+              - { label: 'Bouton', name: 'button', widget: 'hidden'}
 
   - name: 'sectionprestations'
     label: 'Section Prestations'
