@@ -81,7 +81,7 @@ collections:
         fields:
           - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
           - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
-          - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page **Mentions Légales**. https://www.lequipe.fr' }
+          - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page Mentions Légales.' }
           - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + listez ici vos Mentions Légales' }
       
   - name: "data"
@@ -139,6 +139,7 @@ collections:
             widget: 'object'
             collapsed: false
             fields:
+              - { label: 'Enable', name: 'enable', widget: 'select', options: ["true", "false"], hint: '**Ne pas toucher à ce champ, laisser ENABLE**' }
               - label: 'Slider Item'
                 name: 'slider_item'
                 widget: 'list'
