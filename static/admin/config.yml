@@ -53,9 +53,9 @@ collections:
                   - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Find an icon that comes with your contact'}
                   - { label: 'Text', name: 'content', widget: 'string', hint: 'Indiquez ici votre contact (numéro de télephone, adresse email etc)'}
           - { label: 'Image Principale version Mobile', name: 'bg_mobile', widget: 'image',  hint: 'Ceci est la photo principale de votre Page d´accueil en version Téléphone portable. Ne pas ajouter de photos trop large, garder une largeur de 600px.'}
-      - name: 'homepage'
+      - name: 'accueil'
         label: 'Page d´Accueil du site'
-        file: 'data/homepage.yml'
+        file: 'data/accueil.yml'
         delete: false
         editor:
           preview: true
