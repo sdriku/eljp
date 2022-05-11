@@ -13,8 +13,26 @@ collections:
   - name: "data"
     label: "Infos de base du site"
     files:
+      - name: 'homepage'
+        label: 'Page Accueil'
+        file: 'data/homepage.yml'
+        delete: false
+        editor:
+          preview: true
+        fields:
+          - label: 'Caroussel'
+            name: 'slider_item'
+            widget: 'list'
+            allow_add: false
+            summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.content}} - {{fields.pagination_name}}'
+            fields:
+              - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur la photo de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
+              - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
+              - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
+              - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden'}
+
       - name: 'logocontact'
-        label: 'Page d´accueil et Données Générales'
+        label: 'Données Générales ELJP'
         file: 'data/logocontact.yml'
         delete: false
         editor:
@@ -53,17 +71,6 @@ collections:
                   - { label: 'Icon', name: 'icon', widget: 'image', hint: 'Find an icon that comes with your contact'}
                   - { label: 'Text', name: 'content', widget: 'string', hint: 'Indiquez ici votre contact (numéro de télephone, adresse email etc)'}
           - { label: 'Image Principale version Mobile', name: 'bg_mobile', widget: 'image',  hint: 'Ceci est la photo principale de votre Page d´accueil en version Téléphone portable. Ne pas ajouter de photos trop large, garder une largeur de 600px.'}
-          - label: 'Caroussel'
-            name: 'slider_item'
-            widget: 'list'
-            allow_add: false
-            summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.animation_from}} - {{fields.content}} - {{fields.pagination_name}} {{ fields.button}}'
-            fields:
-              - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur l´image de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
-              - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
-              - { label: 'Animation', name: 'animation_from', widget: 'hidden'}
-              - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
-              - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden'}
 
   - name: 'sectionprestations'
     label: 'Section Prestations'
