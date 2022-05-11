@@ -80,7 +80,7 @@ collections:
                   - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden'}
                   - label: 'Bouton'
                     name: 'button'
-                    widget: 'hidden'
+                    widget: 'list'
                     summary: '{{fields.enable}} - {{fields.label}} - {{fields.link}}'
                     fiedls:
                       - { label: 'Enable', name: 'enable', widget: 'hidden'}
