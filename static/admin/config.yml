@@ -58,7 +58,6 @@ collections:
         editor:
           preview: true
         fields:
-          - { label: 'Image Principale de la version mobile du site', name: 'bg_mobile', widget: 'hidden'}
           - label: 'Slider'
             name: 'slider'
             widget: 'object'
