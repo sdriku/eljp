@@ -21,15 +21,19 @@ collections:
           preview: true
         fields:
           - label: 'Caroussel'
-            name: 'slider_item'
-            widget: 'list'
-            allow_add: false
-            summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.content}} - {{fields.pagination_name}}'
+            name: 'slider'
+            widget: 'object'
+            collapsed: false
             fields:
-              - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur la photo de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
-              - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
-              - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
-              - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden'}
+              - label: 'Liste Prestations'
+                name: 'slider_item'
+                widget: 'list'
+                allow_add: false
+                summary: '{{fields.title}} - {{fields.bg_image}} - {{field.content}}'
+                fields:
+                  - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur la photo de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
+                  - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
+                  - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'markdown', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
 
       - name: 'logocontact'
         label: 'Données Générales ELJP'
