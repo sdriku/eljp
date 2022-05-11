@@ -139,15 +139,23 @@ collections:
             widget: 'object'
             collapsed: false
             fields:
-              - { label: 'Enable', name: 'enable', widget: 'hidden', default: 'true' }
+              - { label: 'Enable', name: 'enable', widget: 'hidden'}
               - label: 'Slider Item'
                 name: 'slider_item'
                 widget: 'list'
                 summary: '{{fields.bg_image}} - {{fields.animation_from}} - {{fields.subtitle}} - {{fields.title}} - {{field.content}} - {{fields.pagination_name}}'
                 fiedls:
                   - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter un image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
-                  - { label: 'Animation', name: 'animation_from', widget: 'hidden', default: 'left' }
-                  - { label: 'Subtitle', name: 'subtitle', widget: 'hidden', default: '' }
+                  - { label: 'Animation', name: 'animation_from', widget: 'hidden'}
+                  - { label: 'Subtitle', name: 'subtitle', widget: 'hidden'}
                   - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur l´image de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
                   - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
                   - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden', default: '' }
+                  - label: 'Bouton'
+                    name: 'button'
+                    widget: 'hidden'
+                    summary: '{{fields.enable}} - {{fields.label}} - {{fields.link}} - {{fields.title}}'
+                    fiedls:
+                      - { label: 'Enable', name: 'enable', widget: 'hidden'}
+                      - { label: 'Texte bouton', name: 'label', widget: 'hidden'}
+                      - { label: 'Enable', name: 'link', widget: 'hidden'}
