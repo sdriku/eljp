@@ -19,8 +19,7 @@
 {{ end }}
 
 {{ $data := index .Site.Data }}
-{{ if $data.homepage.slider.enable }}
-{{- with $data.homepage.slider }}
+{{- with $data.homepage }}
 
 <section>
 	<div class="hero-slider position-relative hero-bg-responsive">
@@ -47,6 +46,5 @@
 		{{ end }}
 	</div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}
