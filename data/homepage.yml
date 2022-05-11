@@ -8,6 +8,10 @@ slider:
       animation_from: "left"
       content: "Nous vous accompagnons lors de votre emménagement, pendant ou après la construction de votre habitation. Installation de tableau électrique, alarme incendie, cablage, ajout de prises... nous sommes là pour vous!"
       pagination_name: "Installation"
+      button:
+        enable: true
+        label: "En savoir plus"
+        link: "prestations/installation"
 
     # slider item loop
     - title: "Rénovation"
@@ -15,6 +19,10 @@ slider:
       animation_from: "up"
       content: "Un nouveau logement nécessite parfois des rénovations, de légères à relativement lourdes. Nous établissons un diagnostic si besoin, et nous engageons à remettre aux normes vos installations électriques"
       pagination_name: "Rénovation"
+      button:
+        enable: true
+        label: "En savoir plus"
+        link: "prestations/renovation"
 
     # slider item loop
     - title: "Chauffage"
@@ -22,6 +30,10 @@ slider:
       animation_from: "down"
       content: "Vous souhaitez réaliser des économies via un achat de radiateurs récents? Ou vous aimeriez installer un chauffe-serviette dans votre salle de bains? Contactez-nous!"
       pagination_name: "Chauffage"
+      button:
+        enable: true
+        label: "En savoir plus"
+        link: "prestations/chauffage"
 
     # slider item loop
     - title: "Alarme"
@@ -29,6 +41,10 @@ slider:
       animation_from: "right"
       content: "Vous êtes inquiets pour la sécurité de votre maison lors de vos départs en vacances? Nous vous installerons une alarme correspondant à vos besoins."
       pagination_name: "Alarme"
+      button:
+        enable: true
+        label: "En savoir plus"
+        link: "prestations/alarme"
 
     # slider item loop
     - title: "Domotique"
@@ -36,6 +52,10 @@ slider:
       animation_from: "right"
       content: "Vous souhaitez pouvoir piloter à distance votre éclairage, vos volets ou portails, votre chauffage? Notre expérience en matière de domotique nous permet de connecter votre maison selon vos souhaits."
       pagination_name: "Domotique"
+      button:
+        enable: true
+        label: "En savoir plus"
+        link: "prestations/domotique"
 
     # slider item loop
     - title: "Dépannage"
@@ -43,6 +63,10 @@ slider:
       animation_from: "right"
       content: "Panne de courant, chauffage hors-service, court-circuit suite à une innondation? Contactez-nous afin de planifier une intervention."
       pagination_name: "Dépannage"
+      button:
+        enable: true
+        label: "En savoir plus"
+        link: "prestations/depannage"
 
     # slider item loop
     - title: "Ventilation VMC"
@@ -50,3 +74,7 @@ slider:
       animation_from: "right"
       content: "Nous vous proposons une installation de VMC simple ou double flux."
       pagination_name: "Ventilation"
+      button:
+        enable: true
+        label: "En savoir plus"
+        link: "prestations/ventilation"
