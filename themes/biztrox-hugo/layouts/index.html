@@ -1,13 +1,13 @@
 {{ define "main" }}
 
 {{ $data := index .Site.Data }}
-{{- with $data.homepage }}
+{{- with $data.logocontact }}
 
 
 <style type="text/css">
     @media (max-width: 700px) {
     .hero-bg-responsive {
-    background-image: url('{{ $data.homepage.bg_mobile | absURL }}') !important;
+    background-image: url('{{ $data.logocontact.bg_mobile | absURL }}') !important;
 	background-repeat: no-repeat;
 	background-size: cover;
 	}

@@ -29,3 +29,6 @@ contact_info:
 ############################ Bannière Haut de Page ############################
 mobile: "06 36 12 23 73"
 email: "elec.juste.prix@gmail.com"
+
+########################## Image Petit Ecran ##########################
+bg_mobile: '/assets/img/depannage-w600.jpg'
