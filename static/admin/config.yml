@@ -31,7 +31,7 @@ collections:
               - { label: 'Animation', name: 'animation_from', widget: 'hidden'}
               - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
               - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden'}
-              - { label: 'Bouton', name: 'button', widget: 'hidden'}
+
       - name: 'logocontact'
         label: 'Données Générales du site'
         file: 'data/logocontact.yml'
