@@ -33,7 +33,7 @@ La ventilation mécanique contrôlée (VMC) est un équipement essentiel puisqu�
 
 <br>
 
-{{< img src="vmc.png" alt="Illustration circuit VMC" >}}
+{{< img src="vmc.png" alt="Illustration circuit VMC" width=80% >}}
 
 <br>
 

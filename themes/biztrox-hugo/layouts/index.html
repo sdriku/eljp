@@ -1,9 +1,13 @@
 {{ define "main" }}
 
+{{ $data := index .Site.Data }}
+{{- with $data.homepage }}
+
+
 <style type="text/css">
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
     .hero-bg-responsive {
-    background-image: url('/assets/img/depannage-w400.jpg') !important;
+    background-image: url('{{ $data.homepage.bg_mobile | absURL }}') !important;
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
@@ -11,15 +15,17 @@
 		background-image: none !important;
 	}
   }
-
 </style>
+{{ end }}
 
+{{ $data := index .Site.Data }}
+{{ if $data.homepage.slider.enable }}
+{{- with $data.homepage.slider }}
 
-{{ if .Params.slider.enable }}
 <section>
 	<div class="hero-slider position-relative hero-bg-responsive">
 		<!-- slider item -->
-		{{ range .Params.slider.slider_item }}
+		{{ range .slider_item }}
 		<div class="hero-slider-item py-160 overlay mobile-disable" style="background-image: url('{{ .bg_image | absURL }}')" data-text="{{ .pagination_name }}" role="img" aria-label="Photos illustrant les prestations d'ELJP">
 			<div class="container">
 				<div class="row">
@@ -41,5 +47,6 @@
 		{{ end }}
 	</div>
 </section>
+{{ end }}
 {{ end }}
 {{ end }}
