@@ -81,7 +81,7 @@ collections:
         fields:
           - { label: 'Titre SEO', name: 'title', widget: 'string', hint: 'Ceci est le Titre SEO qui apparait depuis Google lors dune recherche mais napparait nulle part sur votre site' }
           - { label: 'Description SEO', name: 'description', widget: 'string', hint: 'Ceci est la Description SEO qui apparait depuis Google lors dune recherche + pensez à y introduire vos mots-clés + napparaitra nulle part sur votre site' }
-          - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page Mentions Légales' }
+          - { label: 'Image haut de page', name: 'bg_image', widget: 'image', hint: 'Ceci est l´image qui apparait en haut de la page **Mentions Légales**. https://www.lequipe.fr' }
           - { label: 'Contenu', name: 'body', widget: 'markdown', hint: 'Contenu de la page + listez ici vos Mentions Légales' }
       
   - name: "data"
@@ -133,7 +133,7 @@ collections:
         editor:
           preview: true
         fields:
-          - { label: 'Image Principale de la **version mobile** du site', name: 'bg_mobile', widget: 'image',  hint: 'Image Principale qui apparaitra sur la <b>version mobile</b> du site'}
+          - { label: 'Image Principale de la version mobile du site', name: 'bg_mobile', widget: 'image',  hint: 'Image Principale qui apparaitra sur la version mobile du site'}
           - label: 'Slider'
             name: 'slider'
             widget: 'object'
@@ -142,10 +142,8 @@ collections:
               - label: 'Slider Item'
                 name: 'slider_item'
                 widget: 'list'
-                collapsed: false
-                allow_add: true
                 summary: '{{fields.bg_image}} - {{fields.title}} - {{field.content}}'
                 fiedls:
-                  - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter un image **portrait** pour chaque prestation, ne pas dépasser les 1MB, <b>maximum</b> 2000px de largeur'}
+                  - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter un image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
                   - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur l´image de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
                   - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
