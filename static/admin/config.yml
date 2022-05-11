@@ -32,10 +32,11 @@ collections:
                 summary: '{{fields.title}} - {{fields.bg_image}}'
                 fields:
                   - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur la photo de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
-                  - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
+                  - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, entre 1700px et 2000px de largeur est suffisant'}
                   - { label: 'Animation', name: 'animation_from', widget: 'hidden'}
-                  - { label: 'Sous-texte', name: 'content', widget: 'markdown'}
+                  - { label: 'Sous-texte', name: 'content', widget: 'markdown', hint: 'soyez bref, 2 ou 3 lignes maximum'}
                   - { label: 'Pagination', name: 'pagination_name', widget: 'hidden'}
+                  - { label: 'Bouton', name: 'button', widget: 'hidden'}
 
       - name: 'logocontact'
         label: 'Données Générales ELJP'
