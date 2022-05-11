@@ -3,7 +3,8 @@ slider:
   enable: true
   slider_item:
     # slider item loop
-    - bg_image: "assets/img/installation-w1200.jpg"
+    - title: 'Installation'
+      bg_image: "assets/img/installation-w1200.jpg"
       animation_from: 'left'
       subtitle: ''
       title: 'Installation'
@@ -15,7 +16,8 @@ slider:
         link : 'prestations/installation'
       
     # slider item loop
-    - bg_image : 'assets/img/renovation-w1200.jpg'
+    - title : 'Rénovation'
+      bg_image : 'assets/img/renovation-w1200.jpg'
       animation_from : 'up'
       subtitle : ''
       title : 'Rénovation'
@@ -27,10 +29,10 @@ slider:
         link : 'prestations/renovation'
       
     # slider item loop
-    - bg_image : 'assets/img/chauffage-w1200.jpg'
+    - title : 'Chauffage'
+      bg_image : 'assets/img/chauffage-w1200.jpg'
       animation_from : 'down'
       subtitle : 
-      title : 'Chauffage'
       content : 'Vous souhaitez réaliser des économies via l´installation de radiateurs récents? Ou vous aimeriez installer un chauffe-serviette dans votre salle de bains? Contactez-nous!'
       pagination_name : 'Chauffage'
       button:
@@ -39,7 +41,8 @@ slider:
         link : 'prestations/chauffage'
         
     # slider item loop
-    - bg_image : 'assets/img/alarme-w1200.jpg'
+    - title : 'Alarme'
+      bg_image : 'assets/img/alarme-w1200.jpg'
       animation_from : 'right'
       subtitle : ''
       title : 'Alarme'
@@ -51,10 +54,10 @@ slider:
         link : 'prestations/alarme'
 
     # slider item loop
-    - bg_image : 'assets/img/domotique-w1200.jpg'
+    - title : 'Domotique'
+      bg_image : 'assets/img/domotique-w1200.jpg'
       animation_from : 'right'
       subtitle : ''
-      title : 'Domotique'
       content : 'Vous souhaitez pouvoir piloter à distance votre éclairage, vos volets ou portails, votre chauffage? Notre expérience en matière de domotique nous permet de connecter votre maison selon vos souhaits.'
       pagination_name : 'Domotique'
       button:
@@ -63,10 +66,10 @@ slider:
         link : 'prestations/domotique'
 
     # slider item loop
-    - bg_image : 'assets/img/depannage-w1200.jpg'
+    - title : 'Dépannage'
+      bg_image : 'assets/img/depannage-w1200.jpg'
       animation_from : 'right'
       subtitle :
-      title : 'Dépannage'
       content : 'Panne de courant, chauffage hors-service, court-circuit suite à une innondation? N´hésitez pas à nous contacter afin de planifier une intervention.'
       pagination_name : 'Dépannage'
       button:
@@ -75,7 +78,8 @@ slider:
         link : 'prestations/depannage'
 
     # slider item loop
-    - bg_image : 'assets/img/ventilation-w1200.jpg'
+    - title : 'Ventilation VMC'
+      bg_image : 'assets/img/ventilation-w1200.jpg'
       animation_from : right
       subtitle :
       title : 'Ventilation VMC'
