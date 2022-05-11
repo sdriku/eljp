@@ -64,12 +64,11 @@ collections:
             name: 'slider_item'
             widget: 'list'
             allow_add: false
-            summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.animation_from}} - {{fields.subtitle}} - {{field.content}} - {{fields.pagination_name}} {{ fields.button}}'
+            summary: '{{fields.title}} - {{fields.bg_image}} - {{fields.animation_from}} - {{field.content}} - {{fields.pagination_name}} {{ fields.button}}'
             fiedls:
               - { label: 'Titre de la Prestation', name: 'title', widget: 'string', hint: 'Ajouter le titre qui apparaitra sur l´image de chaque prestation + soyez bref, 1 mot ou 2 suffisent'}
               - { label: 'Image pour chaque Prestation', name: 'bg_image', widget: 'image', hint: 'Ajouter une image portrait pour chaque prestation, ne pas dépasser les 1MB, maximum 2000px de largeur'}
               - { label: 'Animation', name: 'animation_from', widget: 'hidden'}
-              - { label: 'Subtitle', name: 'subtitle', widget: 'hidden'}
               - { label: 'Sous-titre de la Prestation', name: 'content', widget: 'string', hint: 'Ajouter le texte qui apparaitra sous votre titre + soyez bref 2 lignes maximum'}
               - { label: 'Pagination Name', name: 'pagination_name', widget: 'hidden'}
               - label: 'Bouton'
