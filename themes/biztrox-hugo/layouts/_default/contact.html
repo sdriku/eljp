@@ -74,10 +74,13 @@
 			{{ "<!-- form -->" | safeHTML }}
 			<div class="col-lg-6 col-md-7">
 				<div class="p-5 rounded box-shadow">
-					<form name="ELJP-contact" action="/french/success/" method="POST" accept-charset="UTF-8" class="row" netlify>
+					<form name="ELJP-contact" action="/themes/biztrox-hugo/layouts/success.html" method="POST" accept-charset="UTF-8" class="row" netlify-honeypot="bot-field" netlify>
 						<input type="hidden" name="form-name" value="ELJP-contact">
 						<div class="col-lg-12">
 							<h3 class="mb-4">{{ i18n "contact_form" }}</h3>
+						</div>
+						<div style="display:none">
+							Do not fill this out if you are human: <input name="bot-field">
 						</div>
 						<div class="col-lg-6">
 							<input type="text" name="name" id="name" class="form-control" placeholder="Votre Nom" required>
