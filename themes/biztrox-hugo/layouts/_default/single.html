@@ -10,7 +10,7 @@
 {{ $bg750 := $res.Resize "750x" }}
 {{ $bg950 := $res.Resize "950x" }}
 {{ $bg1700 := $res.Resize "1700x" }}
-
+{{ if .Params.bg_image }}
 <style>
   @media (max-width: 700px) {
   .bg-title {
@@ -33,7 +33,8 @@
     }
   }
 </style>
-
+{{ else }}
+{{ end }}
 <section class="bg-title page-title overlay">
 	<div class="container">
 		<div class="row">

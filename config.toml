@@ -5,7 +5,6 @@ defaultContentLanguageSubdir = true
 title = "Votre électricien ELJP intervient à Evreux et ses alentours."
 theme = "biztrox-hugo"
 enableRobotsTXT = true
-canonifyURLs = true
 # post pagination
 paginate = "6"
 # post excerpt
