@@ -130,7 +130,7 @@ Nos sous-traitants et partenaires concernés ont signé les «clauses contractue
 <br>
 
 COMMENT VOS DONNÉES SONT-ELLES SÉCURISÉES ?
-AOGW s’assure que vos données sont traitées en toute sécurité et confidentialité.
+ELJP s’assure que vos données sont traitées en toute sécurité et confidentialité.
 Nous avons contracté un certificat SSL (Secure Sockets Layer) pour notre site Web.
 
 Un certificat SSL protège toutes les informations personnelles et confidentielles qui peuvent être traitées sur un site Web, quelles que soient les informations qui peuvent être transmises, telles que celles figurant dans nos formulaires de contact et d'abonnement à la newsletter.
