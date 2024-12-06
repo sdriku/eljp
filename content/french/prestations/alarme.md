@@ -63,7 +63,7 @@ normes applicables, incluant une assistance pour choisir des produits sûrs et d
 
 {{< img src="alarme1.jpg" alt="Photo d'une alarme Daitem" >}}
 
-### Pourquoi choisir nos alarmes résidentielles Daitem ?
+### Pourquoi choisir les alarmes résidentielles Daitem ?
 
 Une alarme avertit le propriétaire si sa propriété est en danger dans une situation particulière, que ce soit
 une intrusion, un incendie ou une inondation. En fait, les alarmes de sécurité sont différentes et il existe
@@ -95,7 +95,7 @@ s’il est équipé de certains accessoires et dispositifs, il peut aussi préve
 
 ### Quelle alarme de la gamme Daitem choisir ?
 
-Nous avons différents types d’alarmes classées dans différentes catégories.
+Je vous propose différents types d’alarmes, classées par catégories.
 
 <br>
 

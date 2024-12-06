@@ -6,7 +6,7 @@ bg_image: 'assets/img/page-title-w1200.jpg'
 description : "Veuillez trouver l'ensemble des prestations d'électricien proposées par ELJP, entreprise basée près d'Evreux (27)"
 ---
 
-## Nos prestations
+## Mes prestations
 
-Nos 30 années d'expérience nous permettent de fournir un large éventail de prestations.
+Mes 30 années d'expérience me permettent de fournir un large éventail de prestations.
 Vous en trouverez le détail ci-dessous, classé par thêmes généraux.

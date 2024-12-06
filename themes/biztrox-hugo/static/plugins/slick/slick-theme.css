@@ -116,13 +116,13 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
-    margin-bottom: 30px;
+    margin-bottom: 10vh;
 }
 
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -8vh;
 
     display: block;
 
@@ -201,4 +201,14 @@
 {
     opacity: .75;
     color: black;
+}
+
+@media (max-width: 768px) {
+    .slick-dotted.slick-slider {
+    margin-bottom: 20vh;
+    }
+.slick-dots {
+    position: absolute;
+    bottom: -15vh;
+    }
 }

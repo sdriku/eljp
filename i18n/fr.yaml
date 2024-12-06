@@ -5,7 +5,7 @@
 - id: quick_links
   translation: Liens Rapides
 - id: contact_us
-  translation: Contactez-nous
+  translation: Contactez-moi
 - id: contact_form
   translation: Formulaire de contact
 - id: submit
@@ -41,6 +41,6 @@
 - id: share
   translation: Partager
 - id: call_now
-  translation: Appelez-nous
+  translation: Appelez-moi
 - id: read_more
   translation: En savoir plus

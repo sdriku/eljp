@@ -3,7 +3,7 @@ title: "Ventilation"
 date: 2018-09-29T11:54:02+06:00
 mainsection: 'false'
 description : "ELJP vous propose l'installation de VMC simple ou double flux."
-summary: "Nous vous proposons l'installation de VMC simple ou double flux"
+summary: "Je vous propose l'installation de VMC simple ou double flux"
 image: 'assets/img/ventilation-w1200.jpg'
 bg_image: 'assets/img/page-title-w1200.jpg'
 brochure: '#'

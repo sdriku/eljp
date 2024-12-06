@@ -3,7 +3,6 @@
 .hero {
 	&-slider {
 		&.slick-slider {
-			margin-bottom: 80px;
 
 			@include mobile {
 				max-height: 400px;
@@ -69,10 +68,8 @@
 		}
 
 		.slick-dots {
-			margin-bottom: -81px;
 			padding-left: 0;
 			text-align: center;
-			border-bottom: 1px solid $border-color;
 
 			li {
 				width: 200px;
