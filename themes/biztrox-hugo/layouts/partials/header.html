@@ -32,7 +32,7 @@
   <div class="navigation">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
+        <a class="navbar-brand" style="box-shadow: none; height: 100px; top: 0" href="{{ site.BaseURL | relLangURL }}">
           <picture><source width="180" height="44" srcset="{{ $data.logocontact.logo.desktop | absURL }}" media="(min-width: 700px)"><img class="img-fluid" width="180" height="44" src="{{ $data.logocontact.logo.mobile | absURL }}" alt="{{ site.Title }}"></picture>
         </a>
         {{ end }}
