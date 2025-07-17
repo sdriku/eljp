@@ -3,7 +3,7 @@ title: "Alarme"
 date: 2018-09-29T11:51:17+06:00
 mainsection: 'false'
 description : "Selon l'ONDRP (observatoire national de la délinquance et des réponses pénales), un cambriolage est commis en France toutes les 90 secondes. Face à ce constat, de plus en plus de Français décident d'installer un système d'alarme dans leur maison pour se protéger et être plus rassurés."
-summary: "ELJP  pose des alarmes DAITEM (marque francaise) mais à la demande du client il est possible d'opter pour d'autres marques"
+summary: "ELJPP  pose des alarmes DAITEM (marque francaise) mais à la demande du client il est possible d'opter pour d'autres marques"
 image: 'assets/img/alarme-w1200.jpg'
 bg_image: 'assets/img/page-title-w1200.jpg'
 brochure: '#'
@@ -20,7 +20,7 @@ type : prestations
 
 ## Pourquoi poser une alarme ?
 
-ELJP  pose des alarmes DAITEM (marque francaise) mais à la demande du client il est possible d'opter pour d'autres marques
+ELJPP  pose des alarmes DAITEM (marque francaise) mais à la demande du client il est possible d'opter pour d'autres marques
 
 Selon l'ONDRP (observatoire national de la délinquance et des réponses pénales), un cambriolage est commis en France toutes les 90 secondes. Face à ce constat, de plus en plus de Français décident d'installer un système d'alarme dans leur maison pour se protéger et être plus rassurés.
 Quelles sont les spécificités d'un dispositif d'alarme maison ?

@@ -21,4 +21,4 @@ C'est ce qui vous permet de contrôler, automatiser et programmer votre habitat 
 
 Commander les fonctions électriques de son habitat, piloter son logement à distance, programmer des scénarios d’usage, optimiser sa consommation énergétique… tout devient possible !
 
-ELJP trouvera les solutions avec vous.
+ELJPP trouvera les solutions avec vous.

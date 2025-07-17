@@ -2,7 +2,7 @@
 title: 'Mentions Légales'
 date: 2018-07-12T18:19:33+06:00
 bg_image: 'assets/img/page-title-w1200.jpg'
-description: 'Voici les Mentions légales de ELJP - Electricité Le Juste Prix.'
+description: 'Voici les Mentions légales de ELJPP - Electricité Le Juste Prix.'
 layout: "mentionslegales"
 ---
 
@@ -16,7 +16,7 @@ layout: "mentionslegales"
 - Nº Identification TVA: Exemption micro-entreprise
 - Tél: 06 36 12 23 73
 - Email: elec.juste.prix@gmail.com
-- Web: www.electricite-eljp.com
+- Web: www.electricite-eljpp.com
 
 ***
 
@@ -46,10 +46,10 @@ L'usage de ce site web est régi par la loi française à l'exception de toute a
 
 <br>
 
-Nous nous engageons à ce que la collecte et le traitement de vos données, effectués à partir du site https://electricite-eljp.com/, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.
-La présente Politique vous informe sur la façon dont ELJP, ses sous-traitants et ses éventuels partenaires traitent vos données personnelles.
+Nous nous engageons à ce que la collecte et le traitement de vos données, effectués à partir du site https://electricite-eljpp.com/, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.
+La présente Politique vous informe sur la façon dont ELJPP, ses sous-traitants et ses éventuels partenaires traitent vos données personnelles.
 
-Cette Politique est notamment applicable aux clients et utilisateurs des offres et services ELJP.
+Cette Politique est notamment applicable aux clients et utilisateurs des offres et services ELJPP.
 
 <br>
 
@@ -70,9 +70,9 @@ Chaque formulaire limite la collecte des données personnelles au strict nécess
 
 Quels sont les objectifs du recueil de ces données (finalités) ;
 Si ces données sont obligatoires ou facultatives pour la gestion de votre demande ;
-Qui pourra en prendre connaissance (uniquement ELJP);
+Qui pourra en prendre connaissance (uniquement ELJPP);
 Vos droits en matière de protection des données personnelles et la façon de les exercer auprès de la CNIL.
-Les données personnelles recueillies dans le cadre des services proposés sur https://electricite-eljp.com/ sont traitées selon des protocoles sécurisés et permettent à ELJP de gérer les demandes reçues dans ses applications informatiques.
+Les données personnelles recueillies dans le cadre des services proposés sur https://electricite-eljpp.com/ sont traitées selon des protocoles sécurisés et permettent à ELJPP de gérer les demandes reçues dans ses applications informatiques.
 
 <br>
 
@@ -82,11 +82,11 @@ Chaque individu dispose d’un droit d’accès, de rectification et de suppress
 <br>
 
 COMMENT EXERCER VOS DROITS ?
-Pour toute information ou exercice de vos droits sur les traitements de données personnelles gérés par ELJP, vous pouvez nous contacter à tout moment:
+Pour toute information ou exercice de vos droits sur les traitements de données personnelles gérés par ELJPP, vous pouvez nous contacter à tout moment:
 - par email en vous munissant d’un scan de votre pièce d’identité:
 elec.juste.prix@gmail.com
 - par courrier signé accompagné de la copie d’un titre d’identité à l’adresse suivante: 
-ELJP
+ELJPP
 Objet: Protection des données
 13 le Vieux Terrier
 27930 Guichainville
@@ -97,7 +97,7 @@ Si vous n’avez pas de retour adéquat, vous avez la possibilité d’introduir
 
 ## Finalités de traitement de vos données personnelles
 
-ELJP ne traite les données personnelles que pour des finalités déterminées, explicites et légitimes. A cet effet, les finalités poursuivies par ELJP sont les suivantes :
+ELJPP ne traite les données personnelles que pour des finalités déterminées, explicites et légitimes. A cet effet, les finalités poursuivies par ELJPP sont les suivantes :
 
 - Traitement des données du formulaire de contact: la collecte, la transmission et l’enregistrement des données pour entrer en contact avec l’entreprise.
 
@@ -106,7 +106,7 @@ ELJP ne traite les données personnelles que pour des finalités déterminées, 
 <br>
 
 QUELLES SONT LES DONNÉES TRAITÉES ?
-ELJP ne traite une donnée ou une catégorie de données que si elle est strictement nécessaire à la finalité poursuivie. 
+ELJPP ne traite une donnée ou une catégorie de données que si elle est strictement nécessaire à la finalité poursuivie. 
 
 <br>
 
@@ -122,7 +122,7 @@ NETLIFY (Hébergement du site et des messages reçus via le formulaire de contac
 
 VOS DONNÉES SONT-ELLES TRAITÉES HORS UE ?
 Non, les données collectées sont traitées et conservées à l'intérieur de l’Union Européenne exclusivement:
-- France (ELJP)
+- France (ELJPP)
 - Irelande (NETLIFY)
 
 Nos sous-traitants et partenaires concernés ont signé les «clauses contractuelles types» de la Commission européenne et se plient aux obligations RGPD (Règlement Général sur la Protection des Données).
@@ -130,7 +130,7 @@ Nos sous-traitants et partenaires concernés ont signé les «clauses contractue
 <br>
 
 COMMENT VOS DONNÉES SONT-ELLES SÉCURISÉES ?
-ELJP s’assure que vos données sont traitées en toute sécurité et confidentialité.
+ELJPP s’assure que vos données sont traitées en toute sécurité et confidentialité.
 Nous avons contracté un certificat SSL (Secure Sockets Layer) pour notre site Web.
 
 Un certificat SSL protège toutes les informations personnelles et confidentielles qui peuvent être traitées sur un site Web, quelles que soient les informations qui peuvent être transmises, telles que celles figurant dans nos formulaires de contact et d'abonnement à la newsletter.
@@ -138,7 +138,7 @@ Un certificat SSL protège toutes les informations personnelles et confidentiell
 <br>
 
 DONNÉES PERSONNELLES DES MINEURS
-L’internaute doit obligatoirement renseigner, au moment de la création de son compte, s’il est âgé de plus de 16 ans. Dans le cas contraire, il ne pourra commander sur le site en ligne de ELJP.
+L’internaute doit obligatoirement renseigner, au moment de la création de son compte, s’il est âgé de plus de 16 ans. Dans le cas contraire, il ne pourra commander sur le site en ligne de ELJPP.
 
 <br>
 

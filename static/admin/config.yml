@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-site_url: https://electricite-eljp.com/
-display_url: https://electricite-eljp.com/
-logo_url: https://electricite-eljp.com/assets/img/eljp-logo-desktop.png
+site_url: https://electricite-eljpp.com/
+display_url: https://electricite-eljpp.com/
+logo_url: https://electricite-eljpp.com/assets/img/eljp-logo-desktop.png
 locale: 'fr'
 
 media_folder: static/assets/img

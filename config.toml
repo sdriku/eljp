@@ -1,8 +1,8 @@
 ######################### default configuration ###############################
-baseURL = "https://electricite-eljp.com/"
+baseURL = "https://electricite-eljpp.com/"
 defaultContentLanguage = "fr"
 defaultContentLanguageSubdir = true
-title = "Votre électricien ELJP intervient à Evreux et ses alentours."
+title = "Votre électricien ELJPP intervient à Evreux et ses alentours."
 theme = "biztrox-hugo"
 enableRobotsTXT = true
 # post pagination
@@ -73,7 +73,7 @@ attributes = ""
 [params]
 favicon = "assets/img/eljp-logo-icon.png"
 # Meta data
-description = "Votre électricien ELJP intervient à Evreux et ses alentours. Contactez-moi pour une évaluation de vos besoins."
+description = "Votre électricien ELJPP intervient à Evreux et ses alentours. Contactez-moi pour une évaluation de vos besoins."
 author = "cedrictateo"
 # contact form
 contact_form_action = "https://formspree.io/f/myyoblrw" # contact form works with https://formspree.io or https://formsubmit.co
